@@ -1,0 +1,19 @@
+\select@language {french}
+\select@language {french}
+\contentsline {section}{\numberline {1}Introduction}{2}
+\contentsline {section}{\numberline {2}Classes utilis\IeC {\'e}es}{2}
+\contentsline {subsection}{\numberline {2.1}Couleur.java}{2}
+\contentsline {subsection}{\numberline {2.2}Palette.java}{2}
+\contentsline {subsection}{\numberline {2.3}EquationDroite.java}{2}
+\contentsline {subsection}{\numberline {2.4}Segment.java}{2}
+\contentsline {subsection}{\numberline {2.5}SceneReader.java}{2}
+\contentsline {subsection}{\numberline {2.6}BSPTree.java}{2}
+\contentsline {subsection}{\numberline {2.7}Heuristic.java}{2}
+\contentsline {subsection}{\numberline {2.8}BSPTreeBuilder.java}{3}
+\contentsline {subsection}{\numberline {2.9}Vue.java}{3}
+\contentsline {subsection}{\numberline {2.10}DrawPanel.java}{3}
+\contentsline {subsection}{\numberline {2.11}Painter.java}{3}
+\contentsline {section}{\numberline {3}Algorithmes}{3}
+\contentsline {subsection}{\numberline {3.1}Algorithme 1 : Cr\IeC {\'e}ation d'un arbre BSP}{3}
+\contentsline {subsection}{\numberline {3.2}Algorithme 2 : Heuristique}{3}
+\contentsline {subsection}{\numberline {3.3}Algorithme 3 : algorithme du peintre}{3}

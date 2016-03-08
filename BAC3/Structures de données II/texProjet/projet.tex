@@ -1,0 +1,371 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{multicol}
+
+\usepackage{mathenv}
+
+\def\nbOne{{\mathchoice {\rm 1\mskip-4mu l} {\rm 1\mskip-4mu l}
+{\rm 1\mskip-4.5mu l} {\rm 1\mskip-5mu l}}}
+
+\usepackage{vmargin}
+\setmarginsrb{2.5cm}{2.5cm}{2.5cm}{2.5cm}{0cm}{0cm}{0cm}{0cm}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage[french]{babel}
+\selectlanguage{french}
+
+\usepackage{color}
+\usepackage{graphicx}
+\graphicspath{{img/}} 
+\usepackage{listings}
+\definecolor{colKeys}{rgb}{0.75,0,0}
+\definecolor{colIdentifier}{rgb}{0,0,0}
+\definecolor{colComments}{rgb}{0.75,0.75,0}
+\definecolor{colString}{rgb}{0,0,0.7}
+
+\lstset{
+basicstyle=\ttfamily\small, %
+identifierstyle=\color{colIdentifier}, %
+keywordstyle=\color{colKeys}, %
+stringstyle=\color{colString}, %
+commentstyle=\color{colComments}
+}
+\lstset{language=java}
+
+% Commandes personnelles %
+
+\definecolor{darkred}{rgb}{0.85,0,0}
+\definecolor{darkblue}{rgb}{0,0,0.7}
+\definecolor{darkgreen}{rgb}{0,0.6,0}
+\definecolor{darko}{rgb}{0.93,0.43,0}
+\newcommand{\dred}[1]{\textcolor{darkred}{\textbf{#1}}}
+\newcommand{\dgre}[1]{\textcolor{darkgreen}{\textbf{#1}}}
+\newcommand{\dblu}[1]{\textcolor{darkblue}{\textbf{#1}}}
+\newcommand{\dora}[1]{\textcolor{darko}{\textbf{#1}}}
+\newcommand{\gre}[1]{\textcolor{darkgreen}{#1}}
+\newcommand{\blu}[1]{\textcolor{darkblue}{#1}}
+\newcommand{\ora}[1]{\textcolor{darko}{#1}}
+\newcommand{\red}[1]{\textcolor{darkred}{#1}}
+
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\image}[1]{\includegraphics{#1}}
+\newcommand{\imageR}[2]{\includegraphics[width=#2px]{#1}}
+\newcommand{\imageRT}[2]{\includegraphics[height=#2px]{#1}}
+\newcommand{\img}[1]{\begin{center}\includegraphics[width=400px]{#1}\end{center}}
+\newcommand{\imag}[1]{\begin{center}\includegraphics{#1}\end{center}}
+\newcommand{\imgR}[2]{\begin{center}\includegraphics[width=#2px]{#1}\end{center}}
+\newcommand{\imgRT}[2]{\begin{center}\includegraphics[height=#2px]{#1}\end{center}}
+\newcommand{\point}[2]{\item \ora{\underline{#1}} : \textit{#2}}
+\newcommand{\bfp}[2]{\item \textbf{#1} : \textit{#2}}
+\newcommand{\sumin}[3]{\sideset{}{_{i=#1}^{#2}}\sum{#3}}
+\newcommand{\stitre}[1]{\noindent\textbf{\underline{#1}} \\}
+\newcommand{\stitreD}[2]{\noindent\textbf{\underline{#1}} \textit{(#2)}\\}
+
+\newcommand{\neu}{n\oe ud}
+\newcommand{\neuSP}{n\oe ud }
+\newcommand{\neus}{n\oe uds}
+\newcommand{\neuSPs}{n\oe uds }
+
+\DeclareMathAlphabet{\mathpzc}{OT1}{pzc}{m}{it}
+
+\title{\textbf{\textcolor{darkred}{Structures de données II - Rapport de Projet.}}}
+\author{\textit{Dubuc Xavier $\&$ Hannecart Aurore}}
+
+\begin{document}
+
+\maketitle
+
+\hbox{\raisebox{0.4em}{\vrule depth 0.4pt height 0.4pt width 10cm}}
+
+\tableofcontents
+
+$ $ \\
+\hbox{\raisebox{0.4em}{\vrule depth 0.4pt height 0.4pt width 10cm}}
+
+\newpage
+
+\section{Introduction}
+
+Notre projet consistait à déterminer ce que voit un oeil d'une scène en deux dimensions sur un segment en une dimension. Pour celà, nous avons dû nous familiariser avec les arbres
+\textbf{BSP} et implémenter leur construction ainsi que l'algorithme du peintre permettant d'interroger un tel arbre et afficher ce qui est vu par un oeil fournit en paramètre.  
+L'énoncé du problème principal est donc : «\textbf{Etant donné un arbre BSP représentant une scène dans un plan (ensemble de segments) et un oeil (un point dans ce plan), 
+donner un algorithme qui affiche la représentation de ce que voit l'oeil}». Nous fournissons dès lors 2 programmes :
+\begin{itemize}
+\item le premier, \textit{\textbf{Test\_GUI.java}}, est un programme interactif permettant de charger un fichier contenant une scène en 2D, choisir la position du point de vue, 
+choisir une des heuristiques de construction des arbres \textbf{BSP} disponibles et finalement afficher la représentation graphique de ce que voit l'oeil en appliquant l'algorithme 
+du peintre.
+\item le second, \textbf{\textit{Test\_Heuristiques.java}},est un programme \textit{console} qui permet de comparer les différentes heuristiques de construction des arbres 
+\textbf{BSP}, mais qui n'affiche pas de représentation graphique de ce que voit l'oeil à l'écran. Ces heuristiques seront comparées en fonction des critères suivants : la 
+\textbf{taille} de l'arbre \textbf{BSP} généré par l'heuristique, la \textbf{hauteur} de cet arbre, le \textbf{temps CPU} utilisé pour construire cet arbre ainsi que le 
+\textbf{temps CPU} utilisé pour appliquer l'algorithme du peintre sur cet arbre.
+\end{itemize}
+
+\section{Algorithme du peintre}
+
+Cet algorithme nous permet d'interroger l'arbre \textbf{BSP} que l'on a créé afin de répondre à notre problème, il est donc primordial de connaître la complexité de celui-ci dans 
+le pire des cas. Après réflexion nous trouvons que cette complexité est en \red{$O(n)$} avec $n$ qui est la taille de l'arbre \textbf{BSP} (en sachant que la taille de cet arbre est 
+en fait le nombre de segments ou fragments de segments contenus dans l'arbre). En effet, afin d'obtenir un ordre ainsi que la projection des segments sur la droite orthogonale à
+la vue, il faut parcourir chaque segment/fragment de segments que contient l'arbre afin de lui appliquer la projection et pour chaque segment, on applique de simples instructions 
+en $O(1)$ d'où la complexité totale en $O(n)$.  \\
+
+On peut également exprimer cette complexité en terme de nombre de noeuds que l'arbre contient, notons ce nombre $m$ :
+\begin{itemize}
+\item \underline{Nombre de noeuds visités} : dans tous les cas on visitera tout l'arbre, afin d'obtenir tous les segments qu'il contient, on a donc \red{$m$} noeuds visités.
+\item \underline{Nombre de références vides visitées} :  aucune, les arbres étant implémentés pour que le cas de base soit une feuille vide.
+\item \underline{Coût par noeud} : Mis à part quelques instructions en $O(1)$, nous nous attachons surtout aux 2 voire 3 boucles exécutées, l'une concerne les 
+segments/fragments de segment contenus dans le noeud, les 2 autres les segments/fragments de segments contenus dans les fils. Toutes ces boucles misent ensemble, vu qu'elles 
+se suivent, le coût total sera donc la somme des coûts des boucles et ce coût sera au maximum égal à la taille de l'arbre (vu qu'il s'agit de tous les segments). Cependant il est 
+excessif de dire que le coût est en $O(n)$, car, par exemple pour une noeud assez bas dans l'arbre, il est évident que ces 3 boucles ne vont pas parcourir toute les 
+segments/fragments de segments  que contient l'arbre. Plaçons nous dans le pire des cas, on sait que comme l'algorithme dépend de la taille de l'arbre, ce pire des cas sera lorsque 
+cette taille sera maximale par rapport au nombre de segments donnés. Il faut donc qu'à chaque séparation, le maximum de segments soient coupés, mais surtout qu'à chaque étape 
+il y ait au moins un segment coupé, si possible. Dans cette optique, nous pensons que le pire des cas serait une sorte de quadrillage et la découpe se ferait à chaque fois via des 
+droites parallèles avant de se faire dans l'autre sens (cf image ci-dessous pour plus de clarté). 
+
+\img{sdd.png}
+
+On a donc que chaque segment noir sera coupé lors des premières découpes (on peut imaginer beaucoup plus de segments rouges pour augmenter la taille encore, le dessin est juste 
+à titre indicatif afin d'appuyer notre idée), et par la suite chacun de ces segments partitionnera le petit espace restant en 2 parties contenant à chaque fois des parties de 
+segments noirs restantes ou rien. Notre raisonnement sera donc le suivant, à chaque étape de séparation par un segment rouge, le segment rouge choisi est contenu dans le noeud, il 
+coupe les  segments noirs en 2 et possède donc de chaque coté un ensemble de segments rouges entiers et de parties de segments noirs. On peut donc affirmer que chaque noeud 
+possède un ensemble de segments à partitionner de taille $n_{pere}-1$ au maximum et \textbf{il devra donc parcourir \red{$n_{pere}-1$} segments dans les 3 boucles décrites 
+plus haut dans le pire des cas.} Cette quantité étant majorée par $n$, on a donc une \textbf{complexité dans le pire des cas en \red{$O(m*n)$}}. \\
+\end{itemize}
+
+\noindent Comme dit précédemment, ce pire des cas est très excessif, on calcule donc la complexité en moyenne, et au lieu d'avoir $O(m*n)$ instructions, on va décomposer le 
+nombre de segments visités au fur et à mesure que l'on descend dans l'arbre, on a donc $n$ pour le premier noeud, $n-1$ pour le second, ... jusqu'à ce que l'on arrive à $0$. On 
+considère que chaque noeud a une probabilité équivalente d'être visité équivalente à $\frac{1}{m}$.
+On a donc au final une complexité totale en $\frac{1}{m}*O\left(n+(n-1)+(n-2)+(n-3)+...+0\right) = O\left(\frac{1}{m}\sumin{0}{n}{i}\right) = O\left(\frac{1}{m}\frac{n(n-1)}
+{2}\right) = \red{O\left(\frac{n^2}{m}\right)}$. Cette complexité, bien qu'en moyenne, n'en est pas moins calculée sur la base du pire des cas concernant la taille de l'arbre, et on 
+peut montrer que dans ce cas, la taille de l'arbre sera toujours inférieure ou égale au nombre de noeuds de l'arbre (c'est assez évident, vu que chaque noeud ne contient qu'un seul 
+segment ou fragment au maximum, on a donc au moins autant de noeuds que de segments/fragments auxquels il faut ajouter les éventuels noeuds vides). On peut donc conclure que 
+la complexité est en \red{$O\left(\frac{m^2}{m}\right) = O(m)$}.
+
+\newpage
+
+\section{Test des heuristiques}
+
+Nous avions à implémenter 3 heuristiques, l'heuristique \textbf{linéaire} qui consiste à prendre simplement le premier segment de l'ensemble comme séparateur, l'heuristique
+\textbf{aléatoire} qui consiste à prendre un segment au hasard et finalement l'heuristique de \textbf{Teller} définie ci dessous. \\
+Soit $S$ un ensemble de segments dans $\R^2$. Soit $T$, un arbre \textbf{BSP} associé à l'ensemble de segments $S$. On rappelle que chaque noeud interne $v$ de $T$ 
+contient l'équation d'une droite $d_v$. Le sous-arbre gauche de $v$ est un arbre \textbf{BSP} pour le plan $d_v^-$ et le sous-arbre droit $d_v^+$. A chaque noeud $v$ de 
+l'arbre on peut donc associer : 
+\begin{itemize}
+\item une région $R_v$ du plan (déterminée par les droites définies dans les noeuds allant de la racine jusqu'au noeud $v$);
+\item un ensemble $I_v$ de segments se trouvant dans $R_v$ : soit un segment $S$, soit un fragment d'un segment de $S$.
+\end{itemize}
+\noindent Soient un noeud $v$ donné et un segment $s \in I_v$. On note $d$ la droite supportant le segment $s$. Nous pouvons alors calculer, parmi l'ensemble de segments 
+$I_v$, les valeurs suivantes : 
+\begin{itemize}
+\item le nombre $f_d$ de segments $I_v$ intersectés par $d$;
+\item la proportion $\sigma_d$ de segments intersectés par $d$ définie par $\sigma_d = \dfrac{f_d}{|I_v|}$. \\
+\end{itemize}
+\textbf{L'idée de l'heuristique de \red{Teller} est la suivante} : on choisit la droite $d$ qui :
+\begin{itemize}
+\item maximise $\sigma_d$ si $\sigma_d \geq \tau$,
+\item minimise $f_d$ sinon,
+\end{itemize}
+\indent où $\tau$ est un seuil fixé. \\
+
+\noindent Nous détaillons ici nos tests en fonction des 3 heuristiques que nous avons dû implémenter, nous utilisons l'heuristique de Teller avec un seuil de $0.5$. \\
+
+\noindent Voici un tableau regroupant les \dred{temps d'exécution (en secondes) pour l'algorithme de création des arbres} appliqué à un fichier de chaque type :
+\begin{center}
+	\begin{tabular}{|*{5}{r|}}
+	\hline
+	Scène & Nombre de segments & Heuristique Linéaire & Heuristique Aléatoire & Heuristique de Teller \\
+	\hline
+	Octangle & 14 & 0 & 0 & 0 \\
+	\hline
+	EllipsesMedium & 720 & 0.06 & 0.02 & 11.92 \\
+	\hline
+	RandomSmall & 2939 & 0.04 & 0.08 & 34.87 \\
+	\hline
+	RectanglesHuge & 16800 & 0.12 & 0.04 & 343.08 \\
+	\hline
+	\end{tabular}
+\end{center}
+$ $ \\
+Voici un tableau regroupant les \dred{temps d'exécution (en secondes) pour l'application de l'algorithme du peintre} à un fichier de chaque type :
+\begin{center}
+	\begin{tabular}{|*{5}{r|}}
+	\hline
+	Scène & Nombre de segments & Heuristique Linéaire & Heuristique Aléatoire & Heuristique de Teller \\
+	\hline
+	Octangle & 14 & 0 & 0 & 0 \\
+	\hline
+	EllipsesMedium & 720 & 0.24 & 0.04 & 0.26 \\
+	\hline
+	RandomSmall & 2939 & 0.16 & 0.08 & 0.24 \\
+	\hline
+	RectanglesHuge & 16800 & 0.26 & 0.08 & 0.28 \\
+	\hline
+	\end{tabular}
+\end{center}
+$ $ \\
+Voici un tableau regroupant les \dred{hauteurs des arbres BSP} crées par l'algorithme de création des arbres appliqué à un fichier de chaque type : 
+\begin{center}
+	\begin{tabular}{|*{5}{r|}}
+	\hline
+	Scène & Nombre de segments & Heuristique Linéaire & Heuristique Aléatoire & Heuristique de Teller \\
+	\hline
+	Octangle & 14 & 11 & 10 & 11 \\
+	\hline
+	EllipsesMedium & 720 & 720 & 130 & 720 \\
+	\hline
+	RandomSmall & 2939 & 54 & 28 & 121 \\
+	\hline
+	RectanglesHuge & 16800 & 46 & 15 & 43\\
+	\hline
+	\end{tabular}
+\end{center}
+\newpage
+Voici un tableau regroupant les \dred{tailles des arbres BSP} crées par l'algorithme de création des arbres appliqué à un fichier de chaque type : 
+\begin{center}
+	\begin{tabular}{|*{5}{r|}}
+	\hline
+	Scène & Nombre de segments & Heuristique Linéaire & Heuristique Aléatoire & Heuristique de Teller \\
+	\hline
+	Octangle & 14 & 14 & 15 & 14 \\
+	\hline
+	EllipsesMedium & 720 & 720 & 738 & 720 \\
+	\hline
+	RandomSmall & 2939 & 4541 & 3922 & 3537 \\
+	\hline
+	RectanglesHuge & 16800 & 16400 & 16413 & 16402 \\
+	\hline
+	\end{tabular}
+\end{center}
+$ $\\
+\noindent\textbf{\underline{Remarques} : } \\
+\begin{itemize}
+\item Il est normal que l'heuristique de \textbf{Teller} prenne plus de temps car l'algorithme permettant de définir la droite à utiliser parcourt 2 fois la liste des segments qui lui 
+est passée en paramètre alors que les 2 autres heuristiques ne font qu'accéder à l'un des segments.
+\item L'heuristique de \textbf{Teller} augmente le temps d'exécution pour la construction de l'arbre, cependant l'algorithme du peintre prend moins de temps (lorsque le seuil est 
+plus petit que $0.5$, voir plus bas). Cependant, il est à remarquer que l'heuristique aléatoire a des performances semblables voir meilleures que celles de l'heuristique.
+\item On remarque que pour les scènes de rectangles, l'heuristique de  \textbf{Teller} n'est pas très efficace car la construction prend beaucoup de temps pour peu d'amélioration 
+au niveau de l'algorithme du peintre.\\
+\end{itemize}
+
+\noindent Nous allons maintenant détailler un peu nos tests sur l'heuristique de Teller en modifiant la valeur du seuil.
+
+\noindent \dred{Pour les temps d'exécution de construction de l'arbre} :
+\begin{center}
+	\begin{tabular}{|*{7}{r|}}
+	\hline
+	Scène & Nombre de segments & $\tau = 0.75$ & $\tau = 0.5$ & $\tau = 0.1$ & $\tau = 0.01$ & $\tau = 0.001$ \\
+	\hline
+	Octangle & 14 & 0 & 0 & 0 & 0 & 0 \\
+	\hline
+	EllipsesMedium & 720 & 10.38 & 10.42 & 10.5 & 10.46 & 0.36 \\
+	\hline
+	RandomSmall & 2939 & 30.34 & 30.36 & 30.46 & 2.52 & 2.54 \\
+	\hline
+	RectanglesHuge & 16800 & 329.52 & 321.22 & 313.94 & 313.36 & 39.31 \\
+	\hline
+	\end{tabular}
+\end{center}
+$ $ \\
+\noindent \dred{Pour les temps d'exécution d'application de l'algorithme du peintre} :
+\begin{center}
+	\begin{tabular}{|*{7}{r|}}
+	\hline
+	Scène & Nombre de segments & $\tau = 0.75$ & $\tau = 0.5$ & $\tau = 0.1$ & $\tau = 0.01$ & $\tau = 0.001$ \\
+	\hline
+	Octangle & 14 & 0 & 0 & 0 & 0 & 0 \\
+	\hline
+	EllipsesMedium & 720 & 0.2 & 0.26 & 0.26 & 0.2 & 0.06 \\
+	\hline
+	RandomSmall & 2939 & 0.28 & 0.24 & 0.26 & 0.12 & 0.12 \\
+	\hline
+	RectanglesHuge & 16800 & 0.28 & 0.28 & 0.31 & 0.29 & 0.17 \\
+	\hline
+	\end{tabular}
+\end{center}
+$ $ \\
+\noindent \dred{Pour les hauteurs} :
+\begin{center}
+	\begin{tabular}{|*{7}{r|}}
+	\hline
+	Scène & Nombre de segments & $\tau = 0.75$ & $\tau = 0.5$ & $\tau = 0.1$ & $\tau = 0.01$ & $\tau = 0.001$ \\
+	\hline
+	Octangle & 14 & 11 & 11 & 9 & 9 & 9 \\
+	\hline
+	EllipsesMedium & 720 & 720 & 720 & 720 & 720 & 105 \\
+	\hline
+	RandomSmall & 2939 & 121  & 121 & 120 & 58 & 58 \\
+	\hline
+	RectanglesHuge & 16800 & 43 & 43 & 43 & 43 & 27 \\
+	\hline
+	\end{tabular}
+\end{center}
+$ $\\
+\noindent \dred{Pour les tailles} :
+\begin{center}
+	\begin{tabular}{|*{7}{r|}}
+	\hline
+	Scène & Nombre de segments & $\tau = 0.75$ & $\tau = 0.5$ & $\tau = 0.1$ & $\tau = 0.01$ & $\tau = 0.001$ \\
+	\hline
+	Octangle & 14 & 14 & 14 & 16 & 16 & 16 \\
+	\hline
+	EllipsesMedium & 720 & 720 & 720 & 720 & 720 & 809 \\
+	\hline
+	RandomSmall & 2939 & 3537 & 3537 & 4014 & 5952 & 5952 \\
+	\hline
+	RectanglesHuge & 16800 & 16402 & 16402 & 16402 & 16402 & 16422 \\
+	\hline
+	\end{tabular}
+\end{center}
+\newpage
+\noindent\textbf{\underline{Remarques} : } \\
+\begin{itemize}
+\item On remarque que plus $\tau$ est petit, plus le nombre de segments coupés augmente (ça favorise le premier cas, cas où l'on maximise la proportion de segments coupés) et 
+donc plus la taille augmente.
+\item On remarque également que plus $\tau$ diminue, plus le temps de construction de l'arbre diminue et plus la hauteur de l'arbre diminue. C'est normal, vu que l'on favorise le
+découpage des segments, on évite, en pratique, quasi tous les cas où l'arbre contient des feuilles vides. La hauteur diminuant, les appels récursifs sont réduits et celà explique la
+diminution du temps \textbf{CPU} consacré à la création de l'arbre \textbf{BSP}.
+\item On remarque une grande différence entre les différents résultats pour la taille pour le \textit{Random} car les segments sont placés de manière assez aléatoires et donc 
+pour chaque segment choisi il y a de grandes chances d'en couper d'autres. On remarque exactement l'inverse dans le \textit{Rectangle}, les segments étant placés de manière à 
+avoir une grand nombre de segments colinéaires.\\
+\end{itemize}
+
+\section{Reflexion sur le projet}
+
+Nous avons eu le plus de problèmes lors de la projection des segments sur l'horitonzale afin d'afficher ce que voit la vue dans notre rectangle dans le programme graphique. Nous 
+avons finalement trouvé un moyen qui fonctionne pas trop mal qui consiste à utiliser la droite horizontale passant par le point d'ordonnée minimale des segments projetés sur la 
+droite perpendiculaire à la vue et de projeter tous ces segments sur la nouvelle droite. Pour projeter ceux-ci, nous calculons la taille (distance euclidienne entre les 2 extrêmités) 
+des segments et nous la reportons sur la droite horizontale. Une fois que nous avons cette droite, nous calculons le rapport entre la taille du segment et la taille de la droite totale et 
+nous l'adaptons à la taille du rectangle où l'on veut afficher, tout en gardant les proportions. \\
+
+Un autre problème récurrent était que nous avions des difficultés à prendre en compte tous les cas possibles, nous plaçant toujours dans un cas trop spécifique et en occultant les 
+autres possibles.
+
+\section{Utilisation du programme graphique}
+
+L'application se lance et ne peut être utilisée que lorsqu'un fichier de scène valable a été ouvert (via Fichier $>$ Ouvrir ...), ensuite l'utilisation est assez instinctive, mais il y a 
+quelques subtilités que nous détaillons ici : 
+\begin{itemize}
+\item vous pouvez tracer une vue sur la scène avec un «\textit{drag $\&$ drop}»,
+\item vous pouvez (dé)zoomer avec la molette de votre souris en maintenant la touche «\textit{Control}»,
+\item vous pouvez placer la scène en zoom 1x en maintenant la touche «\textit{Control}» et en cliquant avec le bouton gauche de la souris,
+\item vous pouvez afficher la scène entièrement en maintenant la touche «\textit{Alt}» et en cliquant avec le bouton gauche de la souris,
+\item vous pouvez entrer les coordonnées de la vue et ensuite cliquer sur le pinceau afin de dessiner celle-ci (la vue doit être absolument dessinée avant de cliquer sur le 
+\textit{«V»} vert pour valider et afficher ce que voit la vue), \red{(Les coordonnées sont et doivent être exprimées dans le repère JAVA)}
+\end{itemize}
+
+\section{Utilisation du programme console}
+
+Il suffit de suivre les instructions, cependant quelque chose d'important, pour lancer les gros fichiers, il est nécessaire d'augmenter la taille de la pile \textbf{JAVA} sinon le 
+programme ne pourra pas fonctionner. Il suffit pour cela d'ajouter l'option «-Xss128m» lors de l'exécution du programme.
+
+\section{Remerciements}
+
+Nous avons tenu à glisser un petit mot à votre encontre afin de vous remercier pour la compréhension dont vous avez fait preuve en repoussant maintes fois la date de remise du 
+projet. Un énorme merci à vous, car celà nous a énormément aidé.
+
+\end{document}
