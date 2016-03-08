@@ -1,0 +1,231 @@
+﻿FGTB : ABVV
+
+login : Gebruikersnaam
+
+logout: Uitloggen
+
+submit: Valideren
+
+send: Verzenden
+
+connect: Verbinden
+
+elections: Sociale Verkiezingen 2012
+
+delete: Verwijderen
+
+open: Openen
+
+back: Terug
+
+invalidform: Ongeldig formulier!
+
+denied: Toegang geweigerd
+
+
+header:
+    
+website: www.abvv.be
+    
+back: Terugkeren naar oorspronkelijke site
+
+
+footer:
+    
+fgtb: Algemeen Belgische VakVerbond
+    
+address: Hoogstraat
+    
+city: Brussel
+    
+plan: sitemap
+
+
+home:
+    
+title: Login
+    
+create: Creëer in enkele minuten je eigen affiche 
+    
+registerform: Inschrijvingsfomulier
+    
+required: De velden gemarkeerd met * zijn verplicht
+
+
+register:
+    
+name: Naam
+    
+surname:  Voornaam
+    
+section: Afdeling
+    
+brussels: Brussel
+    
+antwerp: Antwerpen
+    
+liege: Luik
+    
+already: U bent reeds geregistreerd!
+    
+'created %mail%': Uw account werd aangemaakt en uw gebruikersnaam werd verstuurd naar %mail%.
+
+
+registermail:
+    
+subject: Welkom op de ABVV site voor het creëren van affiches!
+    
+begin: U hebt zich zonet geregistreerd op de site van het ABVV
+
+
+recover:
+    
+title: Gebruikersnaam vergeten?
+    
+info: Vul in dit formulier de informatie in die u hebt doorgegeven voor uw inschrijving.
+    
+form: Recuperatieformulier
+    
+notfound: De gegevens die u hebt ingevuld komen niet overeen met een bestaande account. 
+    
+'send %mail%': Uw gebruikersnaam werd verstuurd naar %mail%.
+
+
+recovermail:
+    
+subject: Uw gebruikersnaam op de ABVV site
+    
+begin: U hebt een aanvraag gedaan om uw gebruikersnaam te recupereren.
+
+
+mail:
+    
+hello: Hallo!
+    
+info: Ter herinnering hierbij de informatie betreffende uw account
+    
+hereis: Uw gebruikersnaam
+    
+end: Met vriendelijke groeten
+    
+sign: de webmaster van de ABVV site
+
+
+log:
+    
+title: Zich identificeren
+    
+enterhere: Vul hier uw gebruikersnaam in.
+    
+error: Gelieve een correcte gebruikersnaam in te geven.
+    
+username : Gebruikersnaam
+    
+remember: Mij herinneren
+    
+forgot: Gebruikersnaam vergeten?
+
+
+show:
+    
+title: Foto's online
+    
+nopict: U hebt geen enkele foto online staan
+    
+select: Selecteren
+
+
+logos:
+    
+title: Logo's
+
+
+manage:
+    
+title: Beheer affiches
+    
+subtitle: Uw affiche crëeren
+    
+pdflist: Mijn affiches
+    
+module: Creatiemodule affiche
+    
+help: Hulp nodig?
+    
+save: Deze affiche bewaren
+    
+use: Een foto van uw harde schijf gebruiken
+    
+errormsg: U moet geregistreerd zijn om deze pagina te kunnen gebruiken
+    
+selectpic: Uw foto
+    
+selectslo: Uw slogan
+    
+selectlog: Taal
+    
+selectmod: Weergavemodus
+    
+fr: Frans
+    
+nl: Nederlands
+    
+de: Duits
+    
+elections: Sociale Verkiezingen 2012
+    
+profile: Profiel
+
+
+edit:
+    
+title: Informatie wijzigen
+    
+info: Gelieve in dit formulier de nieuwe informatie in te vullen.
+    
+form: Uw informatie
+    
+noaccount: Deze account bestaat niet
+    
+changesok: Wijzigingen opgeslagen
+    
+error: Er bestaat reeds een account met deze naam en voornaam.
+
+
+mode:
+    
+landscape: Landschap
+    
+portrait: Portret
+pdf:
+    
+poster: Affiche
+    
+none: Geen affiche
+    
+download: Downloaden
+    
+deleted: Affiche verwijderd.
+    
+notfound: Affiche onbestaand.
+    
+saved: Affiche opgeslagen.
+    
+error: Er heeft zich een fout voorgedaan tijdens het opslaan van uw affiche. Gelieve opnieuw te proberen. 
+    
+limit: U kan niet meer dan 5 affiches opslaan!
+
+
+picture:
+    
+deleted: Foto verwijderd.
+    
+notfound: Foto onbestaand.
+    
+uploaded: Foto opgeslagen.
+    
+error: U hebt reeds een foto met deze naam. Gelieve de oude foto te verwijderen of de naam deze nieuwe foto te veranderen.
+    
+limit: U kan niet meer dan 5 foto's opslaan.
+    
+type: Gelieve een foto te kiezen met formaat .png, .jpg of .gif (max 5Mb).

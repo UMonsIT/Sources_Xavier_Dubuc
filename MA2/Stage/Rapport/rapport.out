@@ -1,0 +1,39 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}
+\BOOKMARK [1][-]{section.2}{TagExpert}{}
+\BOOKMARK [2][-]{subsection.2.1}{Qu'est-ce que cette entreprise ?}{section.2}
+\BOOKMARK [2][-]{subsection.2.2}{Qui sont-ils ?}{section.2}
+\BOOKMARK [2][-]{subsection.2.3}{Historique}{section.2}
+\BOOKMARK [2][-]{subsection.2.4}{Produits/Services fournis}{section.2}
+\BOOKMARK [3][-]{subsubsection.2.4.1}{Conseil strat\351gique}{subsection.2.4}
+\BOOKMARK [3][-]{subsubsection.2.4.2}{e-Marketing \(ou Marketing en ligne\)}{subsection.2.4}
+\BOOKMARK [3][-]{subsubsection.2.4.3}{Cr\351ation de sites Internet}{subsection.2.4}
+\BOOKMARK [3][-]{subsubsection.2.4.4}{D\351veloppement d'applications robustes sur mesure}{subsection.2.4}
+\BOOKMARK [3][-]{subsubsection.2.4.5}{Production et montage vid\351o}{subsection.2.4}
+\BOOKMARK [3][-]{subsubsection.2.4.6}{Formations}{subsection.2.4}
+\BOOKMARK [2][-]{subsection.2.5}{Situations sur le march\351}{section.2}
+\BOOKMARK [3][-]{subsubsection.2.5.1}{Concurrence}{subsection.2.5}
+\BOOKMARK [3][-]{subsubsection.2.5.2}{Partenaires}{subsection.2.5}
+\BOOKMARK [3][-]{subsubsection.2.5.3}{Clients}{subsection.2.5}
+\BOOKMARK [2][-]{subsection.2.6}{Evolution}{section.2}
+\BOOKMARK [1][-]{section.3}{Le stage}{}
+\BOOKMARK [2][-]{subsection.3.1}{Description du contexte et du contenu du stage}{section.3}
+\BOOKMARK [2][-]{subsection.3.2}{Exigences fonctionnelles}{section.3}
+\BOOKMARK [2][-]{subsection.3.3}{Cahier des charges}{section.3}
+\BOOKMARK [2][-]{subsection.3.4}{Outils utilis\351s}{section.3}
+\BOOKMARK [3][-]{subsubsection.3.4.1}{Le framework Symfony2 : la charni\350re}{subsection.3.4}
+\BOOKMARK [3][-]{subsubsection.3.4.2}{jQuery : le peaufineur}{subsection.3.4}
+\BOOKMARK [3][-]{subsubsection.3.4.3}{XSL-FO et Apache-fop : les g\351n\351rateurs de PDF}{subsection.3.4}
+\BOOKMARK [1][-]{section.4}{Travail fourni}{}
+\BOOKMARK [2][-]{subsection.4.1}{Conception}{section.4}
+\BOOKMARK [2][-]{subsection.4.2}{Impl\351mentation}{section.4}
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Feature user}{subsection.4.2}
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Feature picture}{subsection.4.2}
+\BOOKMARK [3][-]{subsubsection.4.2.3}{Feature compositing}{subsection.4.2}
+\BOOKMARK [3][-]{subsubsection.4.2.4}{Feature pdf}{subsection.4.2}
+\BOOKMARK [3][-]{subsubsection.4.2.5}{Compatibilit\351 inter-navigateurs}{subsection.4.2}
+\BOOKMARK [3][-]{subsubsection.4.2.6}{Internationalisation}{subsection.4.2}
+\BOOKMARK [1][-]{section.5}{Conclusion}{}
+\BOOKMARK [1][-]{appendix.A}{Annexe A : Sch\351ma de la base de donn\351es}{}
+\BOOKMARK [1][-]{appendix.B}{Annexe B : Exemples d'affiches g\351n\351r\351es par l'application}{}
+\BOOKMARK [1][-]{appendix.C}{Annexe C : Timeline}{}
+\BOOKMARK [1][-]{appendix.D}{Annexe D : Descriptif des messages utilis\351s en screenshots}{}

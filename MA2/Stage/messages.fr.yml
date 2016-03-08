@@ -1,0 +1,109 @@
+﻿FGTB : FGTB
+login : Identification
+logout: Déconnexion
+submit: Valider
+send: Envoyer
+connect: Se connecter
+elections: Elections sociales 2012
+delete: Supprimer
+open: Ouvrir
+back: Retour
+invalidform: Formulaire invalide !
+denied: Accès refusé.
+header:
+    website: www.fgtb.be
+    back: Revenir au site institutionnel
+footer:
+    fgtb: Fédération Générale du Travail de Belgique
+    address: Rue Haute 42
+    city: Bruxelles
+    plan: Plan du site
+home:
+    title: Login
+    create: Créez votre affiche de délégué en quelques minutes.
+    registerform: Formulaire d'inscription
+    required: Les champs marqués d'un * sont obligatoires.
+register:
+    name: Prénom
+    surname:  Nom
+    section: Section
+    brussels: Bruxelles
+    antwerp: Anvers
+    liege: Liège
+    already: Vous avez déjà un compte !
+    'created %mail%': Votre compte a été créé, votre identifiant a été envoyé à %mail%.
+registermail:
+    subject: Bienvenue sur le site de gestion d'affiches de la FGTB !
+    begin: Vous venez de vous enregistrer sur le site de la FGTB.
+recover:
+    title: Récupération de l'identifiant
+    info: Remplissez ce formulaire avec les informations que vous aviez mentionnées lors de votre inscription.
+    form: Formulaire de récupération
+    notfound: Les informations que vous avez mentionnées ne correspondent à aucun compte existant.
+    'send %mail%': Votre identifiant a été envoyé à %mail%.
+recovermail:
+    subject: Votre identifiant sur le site de la FGTB
+    begin: Vous avez fait une demande de récupération de votre identifiant.
+mail:
+    hello: Bonjour !
+    info: Pour rappel, voici les informations de votre compte
+    hereis: Voici votre identifiant
+    end: Cordialement
+    sign: le webmaster du site de la FGTB.
+log:
+    title: S'identifier
+    enterhere: Veuillez introduire ci-dessous votre identifiant
+    error: Veuillez entrer un identifiant correct.
+    username : Identifiant
+    remember: Se souvenir de moi
+    forgot: Identifiant oublié ?
+show:
+    title: Photos mises en ligne
+    nopict: Vous n'avez mis aucune photo en ligne.
+    select: Sélectionner
+logos:
+    title: Logos
+manage:
+    title: Gestion des affiches
+    subtitle: Création de votre affiche
+    pdflist: Mes affiches
+    module: Module de création d'affiche
+    help: Besoin d'aide?
+    save: Sauver cette affiche
+    use: Utiliser une photo de votre disque dur
+    errormsg: Vous devez être identifié pour accéder à cette page
+    selectpic: Votre photo
+    selectslo: Votre slogan
+    selectlog: La langue
+    selectmod: Mode d'affichage
+    fr: Français
+    nl: Néerlandais
+    de: Allemand
+    elections: Élections sociales 2012
+    profile: Profil
+edit:
+    title: Modifier les informations
+    info: Remplissez ce formulaire avec vos nouvelles informations.
+    form: Vos informations
+    noaccount: Ce compte n'existe pas.
+    changesok: Changements sauvegardés.
+    error: Un compte avec ce couple nom/prénom ou cet e-mail existe déjà. 
+mode:
+    landscape: Paysage
+    portrait: Portrait
+pdf:
+    poster: Affiche
+    none: Aucune affiche.
+    download: Télécharger
+    deleted: Affiche supprimée.
+    notfound: Affiche inexistante.
+    saved: Affiche enregistrée.
+    error: Une erreur est survenue lors de la sauvegarde de votre affiche, veuillez réessayer.
+    limit: Vous ne pouvez sauver plus de 5 affiches !
+picture:
+    deleted: Photo supprimée.
+    notfound: Photo inexistante.
+    uploaded: Photo sauvée.
+    error: Vous possédez déjà une photo avec ce nom. Supprimez l'ancienne ou choisissez un autre nom pour celle-ci.
+    limit: Vous ne pouvez sauver que 5 photos. 
+    type: Sélectionnez une photo au format .png, .jpg ou .gif (5Mo max).

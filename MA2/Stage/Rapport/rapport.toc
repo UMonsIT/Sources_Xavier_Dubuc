@@ -1,0 +1,61 @@
+\select@language {french}
+\select@language {french}
+\contentsline {section}{\numberline {1}Introduction}{4}{section.1}
+\contentsline {section}{\numberline {2}TagExpert}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Qu'est-ce que cette entreprise ?}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Qui sont-ils ?}{5}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Historique}{5}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Produits/Services fournis}{6}{subsection.2.4}
+\contentsline {subsubsection}{\numberline {2.4.1}Conseil strat\IeC {\'e}gique}{6}{subsubsection.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.2}e-Marketing (ou Marketing en ligne)}{6}{subsubsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.3}Cr\IeC {\'e}ation de sites Internet}{6}{subsubsection.2.4.3}
+\contentsline {subsubsection}{\numberline {2.4.4}D\IeC {\'e}veloppement d'applications robustes sur mesure}{7}{subsubsection.2.4.4}
+\contentsline {subsubsection}{\numberline {2.4.5}Production et montage vid\IeC {\'e}o}{7}{subsubsection.2.4.5}
+\contentsline {subsubsection}{\numberline {2.4.6}Formations}{7}{subsubsection.2.4.6}
+\contentsline {subsection}{\numberline {2.5}Situations sur le march\IeC {\'e}}{8}{subsection.2.5}
+\contentsline {subsubsection}{\numberline {2.5.1}Concurrence}{8}{subsubsection.2.5.1}
+\contentsline {subsubsection}{\numberline {2.5.2}Partenaires}{8}{subsubsection.2.5.2}
+\contentsline {subsubsection}{\numberline {2.5.3}Clients}{9}{subsubsection.2.5.3}
+\contentsline {subsection}{\numberline {2.6}Evolution}{10}{subsection.2.6}
+\contentsline {section}{\numberline {3}Le stage}{10}{section.3}
+\contentsline {subsection}{\numberline {3.1}Description du contexte et du contenu du stage}{10}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Exigences fonctionnelles}{10}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Cahier des charges}{11}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Outils utilis\IeC {\'e}s}{12}{subsection.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1}Le framework Symfony2 : la charni\IeC {\`e}re}{12}{subsubsection.3.4.1}
+\contentsline {paragraph}{Qu'est-ce qu'un MVC ?}{13}{section*.3}
+\contentsline {paragraph}{Route $\leftrightarrow $ contr\IeC {\^o}leur}{13}{section*.4}
+\contentsline {paragraph}{Langages utilis\IeC {\'e}s}{13}{section*.5}
+\contentsline {subsubsection}{\numberline {3.4.2}jQuery : le peaufineur}{13}{subsubsection.3.4.2}
+\contentsline {paragraph}{Pourquoi jQuery ?}{13}{section*.6}
+\contentsline {subsubsection}{\numberline {3.4.3}XSL-FO et Apache-fop : les g\IeC {\'e}n\IeC {\'e}rateurs de PDF}{13}{subsubsection.3.4.3}
+\contentsline {section}{\numberline {4}Travail fourni}{15}{section.4}
+\contentsline {subsection}{\numberline {4.1}Conception}{15}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Impl\IeC {\'e}mentation}{15}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Feature user}{15}{subsubsection.4.2.1}
+\contentsline {paragraph}{Approche}{15}{section*.7}
+\contentsline {paragraph}{Difficult\IeC {\'e}s}{15}{section*.8}
+\contentsline {subsubsection}{\numberline {4.2.2}Feature picture}{16}{subsubsection.4.2.2}
+\contentsline {paragraph}{Approche}{16}{section*.9}
+\contentsline {paragraph}{Difficult\IeC {\'e}s}{16}{section*.10}
+\contentsline {subsubsection}{\numberline {4.2.3}Feature compositing}{17}{subsubsection.4.2.3}
+\contentsline {paragraph}{Approche}{17}{section*.11}
+\contentsline {paragraph}{Difficult\IeC {\'e}s}{17}{section*.12}
+\contentsline {subsubsection}{\numberline {4.2.4}Feature pdf}{17}{subsubsection.4.2.4}
+\contentsline {paragraph}{Approche}{17}{section*.13}
+\contentsline {paragraph}{Difficult\IeC {\'e}s}{17}{section*.14}
+\contentsline {subsubsection}{\numberline {4.2.5}Compatibilit\IeC {\'e} inter-navigateurs}{17}{subsubsection.4.2.5}
+\contentsline {paragraph}{L'\IeC {\'e}v\IeC {\`e}nement `load'}{17}{section*.15}
+\contentsline {paragraph}{L'\IeC {\'e}v\IeC {\`e}nement `change'}{18}{section*.16}
+\contentsline {paragraph}{L'upload de fichier}{18}{section*.17}
+\contentsline {paragraph}{Les champs ``required'' et la validation c\IeC {\^o}t\IeC {\'e} client}{18}{section*.18}
+\contentsline {paragraph}{HTML 5}{18}{section*.19}
+\contentsline {paragraph}{La console}{18}{section*.20}
+\contentsline {subsubsection}{\numberline {4.2.6}Internationalisation}{19}{subsubsection.4.2.6}
+\contentsline {paragraph}{Approche}{19}{section*.21}
+\contentsline {paragraph}{Difficult\IeC {\'e}s}{19}{section*.22}
+\contentsline {section}{\numberline {5}Conclusion}{20}{section.5}
+\contentsline {section}{\numberline {A}Annexe A : Sch\IeC {\'e}ma de la base de donn\IeC {\'e}es}{21}{appendix.A}
+\contentsline {section}{\numberline {B}Annexe B : Exemples d'affiches g\IeC {\'e}n\IeC {\'e}r\IeC {\'e}es par l'application}{22}{appendix.B}
+\contentsline {section}{\numberline {C}Annexe C : Timeline}{23}{appendix.C}
+\contentsline {section}{\numberline {D}Annexe D : Descriptif des messages utilis\IeC {\'e}s en screenshots}{24}{appendix.D}
