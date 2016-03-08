@@ -1,0 +1,319 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+\usepackage{mathenv}
+
+\def\nbOne{{\mathchoice {\rm 1\mskip-4mu l} {\rm 1\mskip-4mu l}
+{\rm 1\mskip-4.5mu l} {\rm 1\mskip-5mu l}}}
+
+\usepackage{vmargin}
+\setmarginsrb{2.5cm}{2.5cm}{2.5cm}{2.5cm}{0cm}{0cm}{0cm}{0cm}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage[french]{babel}
+\selectlanguage{french}
+
+\usepackage{color}
+\usepackage{graphicx}
+\graphicspath{{Chapitre1/}{Chapitre2/}{Chapitre3/}{Chapitre4/}} 
+
+% Commandes personnelles %
+
+\newcommand{\limplus}{\lim_{x\to +\infty}}
+\newcommand{\limneg}{\lim_{x\to -\infty}}
+
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+
+\definecolor{darkred}{rgb}{0.85,0,0}
+\definecolor{darkblue}{rgb}{0,0,0.7}
+\definecolor{darkgreen}{rgb}{0,0.7,0}
+
+\DeclareMathAlphabet{\mathpzc}{OT1}{pzc}{m}{it}
+
+\title{\textbf{\textcolor{darkblue}{Calcul des probabilités \& théorie des erreurs.}}}
+\author{\textit{Xavier Dubuc}}
+
+\begin{document}
+
+\maketitle
+
+\hbox{\raisebox{0.4em}{\vrule depth 0.4pt height 0.4pt width 10cm}}
+
+\tableofcontents % Affiche la table des matiéèes
+
+\hbox{\raisebox{0.4em}{\vrule depth 0.4pt height 0.4pt width 10cm}}
+
+\section*{Chapitre 0 - Introduction}
+
+\textbf{\textcolor{darkred}{V}}ers le 1er décembre, un problème sera posé de manière individuelle et chaque étudiant devra répondre à son problème au 
+travers d'un rapport (entre 20 et 50 pages) qu'il remettra à l'enseignant avant les vacances de noël. Le style est libre
+mais il convient, comme dans tous rapports, de constituer celui-ci d'une introduction, d'un corps, d'une conclusion et
+d'éventuellement des annexes. Il est également inutile de recopier les démonstrations du cours, un simple «comme vu au cours
+à tel endroit» convient ; cependant, l'étudiant doit être capable d'expliquer la théorie cernée par cette phrase.
+
+\textbf{\textcolor{darkred}{A}}u mois de janvier, une défense orale durant entre 10 et 30 minutes aura lieu. Au cours de celle-ci, l'étudiant sera amené à
+expliquer son rapport dans le but de convaincre le jury que ce rapport a bien été fait par celui-ci. Il est à savoir que le
+professeur peut demander à argumenter le choix de la méthode de résolution utilisée et ce en demandant des explications sur
+une partie du cours n'étant pas spécialement utilisée dans le rapport de l'étudiant. Il convient donc de revoir tout le
+cours dans son entiereté, de le comprendre et surtout d'être capable de l'appliquer.
+
+\textbf{\textcolor{darkred}{A}}u niveau du support de cours, un syllabus est disponible au presse, son intitulé est le même que celui du cours.
+Ce dernier contient la théorie inhérente au cours ainsi que des exercices et des résolutions d'exercices. Il contient
+également des tables statistiques dont l'étudiant aura usage lors des séances d'exercices ainsi que 2 rapports d'anciens
+élèves jugés bons à titre d'exemple pour les étudiants.
+
+\textbf{\textcolor{darkred}{I}}l est conseillé de lire sa question dès sa réception car le problème posé peut être dur à cerner, il ne faut dès lors pas
+attendre la dernière minute pour oser poser une question par rapport au problème. A cet effet, dans les environs du 8 
+décembre, aura lieu une séance spéciale d'exercices durant laquelle tous les étudiants pourront poser des questions par
+rapport à leur problème ainsi qu'assister à la résolution d'un exercice similaire.
+
+\section{Chapitre 1 - 4 lois de référence}
+
+\subsection{Loi Normale}
+
+Prenons, par exemple, $X_i$ comme étant le temps nécessaire à produire une voiture. On a que le temps est égal à la somme
+de tous les temps pour mettre chaque pièce sur la voiture (une voiture étant composée de plus ou moins 5000 pièces). On a 
+donc : temps $=\sideset{}{^N_{i=1}}\sum{T_i} $. Vu $N >> 1$ ($N$ ($=5000$) est beaucoup plus grand que $1$), le 
+\textbf{théorème de la limite centrale} nous dit que le temps sera de \textbf{loi normale}.
+
+On pose : 
+\begin{itemize}
+ \item $X_1$ v.a.r. associée au temps d'assemblage de la 1ère voiture : mesure $x_1$.
+ \item $X_2$ v.a.r. associée au temps d'assemblage de la 2ème voiture : mesure $x_2$.
+ \item ...
+ \item $X_i$ v.a.r. associée au temps d'assemblage de la ième voiture : mesure $x_i$.
+ \item ...
+ \item $X_n$ v.a.r. associée au temps d'assemblage de la nème voiture : mesure $x_n$.
+\end{itemize}
+
+$X_i$ est de loi normale, $\rightarrow f_{X_i} = \dfrac{e^{\frac{-(x-\mu)}{2\sigma^2}}}
+                                                           {\sqrt{2\pi\sigma^2}}$
+
+\includegraphics{Figure1-1.png}
+
+La courbe est centrée en $\mu$ qui est la moyenne arithmétique, et la largeur (distance entre l'axe vertical passant par
+$\mu$ et la courbe) à mi-hauteur est, à peu de choses près, égale à $\sigma$. On déduit les formes des courbes sur le graphe
+ci-haut par le fait que vu que c'est une loi de probabilité, il faut vérifier que $\int{f(x)\ fx} = 1$ et on remarque 
+également que plus $\sigma$ est petit, plus la densité est forte autour de la moyenne et plus les mesures sont précises. On
+va donc toujours essayer d'avoir un $\sigma$ très petit.
+
+Interessons nous à présent à la loi de la moyenne algébrique des v.a.r. : $\bar{X}_N = \dfrac{X_1+X_2+...+X_N}{N}$, on 
+cherche donc $f_{\bar{X}_N}(x) =\ ?$. Il existe plusieurs façons de le calculer, la plus facile reste d'utiliser les 
+fonctions caractéristiques. Pour $X_j$, la fonction caractéristique est donnée par : 
+$\varphi_{X_j}(t) = E\{e^{itX_j}\} = e^{it\mu-\sigma^2\frac{t^2}{2}}$.
+
+En supposant que les $X_j$ sont tous indépendants et vu qu'ils sont tous de même loi, on peut déduire les égalités
+suivantes : \\
+$\varphi_{\bar{X}_N}(t) \\
+= E\{e^it\frac{X_1+...+X_N}{N}\} \\
+= E\{e^{i\frac{t}{N}X_1+...+X_N}\} \\
+= E\{e^{i\frac{t}{N} X_1}\} * E\{e^{i\frac{t}{N} X_2}\} ... E\{e^{i\frac{t}{N} X_N}\} \\
+= \varphi_{X_1}\left(\frac{t}{N}\right) ... \varphi_{X_N}\left(\frac{t}{N}\right) \\
+= \left(\varphi_{X_1}\left(\frac{t}{N}\right)\right)^N \\
+= \left(e^ {i\frac{t}{N}\mu - \sigma^2\frac{t^2}{2N^2}} \right)^N \\
+= e^{i\frac{t}{N}\mu N - \sigma^2\frac{t^2}{2N^2}N} \\
+= e^{it\mu - \sigma^2\frac{t^2}{2N}} \\
+= \textcolor{darkred}{e^{it\mu - \dfrac{\sigma^2}{N}\dfrac{t^2}{2}}} \\$
+
+Nous étions entrain de considérer une loi normale de moyenne \textcolor{darkgreen}{$\mu$} et d'écart-type 
+\textcolor{darkgreen}{$\sigma$}, $f_{X_i}(x) = N(\textcolor{darkgreen}{\mu},\textcolor{darkgreen}{\sigma}) \\
+\Rightarrow \varphi_{X_j}(t) = e^{it\textcolor{darkgreen}{\mu}-\textcolor{darkgreen}{\sigma}^2\frac{t^2}{2}} \\ 
+\Rightarrow \varphi_{\bar{X}_N}(t) = e^{it\textcolor{darkgreen}{\mu} - \textcolor{darkgreen}{\dfrac{\sigma^2}{N}}
+\dfrac{t^2}{2}} = N(\mu,\dfrac{\sigma}{\sqrt{N}})$
+
+Il s'agit donc d'une gaussienne dont l'écart-type (la largeur à mi-hauteur) est plus petit, on peut donc en conclure que
+lorsque l'on considère la moyenne d'une suite d'évènements indépendants on augmente la précision des mesures. Revenons à
+l'exemple de la construction de la voiture : \\
+ 
+\includegraphics{Figure1-2.png}
+
+$\textcolor{darkred}{\bar{X}_{100}} = \dfrac{X_1+...+X_{100}}{100}$ ($6$min $=$ $\dfrac{1h}{\sqrt{100}}$)
+
+\subsection{Loi Chi 2 à $n$ degrés de liberté}
+
+Prenons $X_i = N(0,1)$, la loi normale centrée réduite (moyenne nulle et variance 1). Il existe un moyen de «transformer»
+une loi normale en une loi normale centrée réduite, imaginons que $Y$ soit une loi normale, alors $\dfrac{Y-\mu}{\sigma}$
+est une loi normale centrée réduite.
+
+On considère ensuite les «Chi 2», il s'agit en fait de la somme de toutes les mesures au carré : 
+$\chi_n^2 = \sideset{}{_{i=1}^n}\sum{X_i^2}$. On donne également sa fonction de répartition : 
+$f_{\chi^2_n}(x) = 
+\left \{
+\begin{array}{c}
+ \dfrac{1}{2\Gamma(\frac{n}{2})}  (\dfrac{x}{2})^{\frac{n}{2}-1} e^{-\frac{x}{2}} \ si\ x>0\\
+ 0\ ailleurs
+\end{array}
+\right.$
+Essayons de deviner l'aspect de la courbe de $f_{\chi_n^2}$, son équation est du type : $Cste\ *\ (\dfrac{x}{2})^{\frac{n}{2}-1}
+e^{-\frac{x}{2}} $; on peut ainsi deviner que si $x$ est petit, on a $f_{\chi_n^2} \sim (\dfrac{x}{2})^{\frac{n}{2}-1}$ et qu'au
+contraire, quand $x$ est grand, on a $f_{\chi_n^2} \sim e^{-\frac{x}{2}}$. On en déduit le graphe suivant : \\
+
+\includegraphics{Figure1-3.png}
+
+Exemple : lors d'un labo de première année, les premières physiques ont été amené à mesurer la dilatation d'un tube de cuivre
+en fonction de la température, ils ont eu une série de mesure à faire et par la suite le prof leur a dit que les points
+trouvés formaient une courbe linéaire. Dès lors les élèves ont modifiés leurs graphiques afin que les points tombent sur la
+droite du professeur. Cette droite est en fait la moyenne des mesures faites, et on va montrer avec l'exemple suivant que la
+probabilité pour que tous les points (ici 5) se trouvent sur cette droite est infime voire nulle.
+
+\includegraphics{Figure1-4.png}
+
+$\sideset{}{_i}\sum{\dfrac{\left(X_i-(aT+b)\right)}{\sigma^2}} = \chi_n^2$
+
+$\Rightarrow P\{\chi_n^2 < 10^{-6}\} = ?$
+
+Suivons l'exemple avec $n=5$, $P\{\chi_5^2 < 10^{-6}\} = P\{0 \leq \chi_5^2 \leq 10^{-6}\} = 0,00000001$, ce qui représente
+la probabilité que tous les points soient sur la droite.
+
+La réponse la plus probable, c'est quand $\chi_n^2$ est maximum, c'est à dire aux alentours de $n$, on dit familièrement que
+$\chi_n^2$ «aime» les données qui sont de l'ordre du degré de liberté.
+
+\subsection{Loi Student à $n$ degrés de liberté}
+
+On prend : 
+
+$\left \{
+\begin{array}{l}
+X = N(0,1) \\
+Y=\chi_n^2
+\end{array}
+\right.
+$
+avec $X$ et $Y$ indépendants.
+
+On définit la loi de \textbf{Student} à $n$ degré de liberté par : $T_n = S_n = \dfrac{X}{\sqrt{\frac{Y}{n}}}$ dont la
+fonction de répartition est $f_{S_n}(t) = Cste \dfrac{1}{ (1+\frac{t^2}{n}) ^ {\frac{n+1}{2}}}$
+
+\includegraphics{Figure1-5.png}
+
+\subsection{Loi Fisher-Snedecor à $n_1$,$n_2$ degrés de liberté}
+
+On prend : 
+
+$\left \{
+\begin{array}{l}
+X_1 = \chi_{n_1}^2 \\
+X_2=\chi_{n_2}^2
+\end{array}
+\right.
+$
+avec $X_1$ et $X_2$ indépendants.
+
+On définit la loi de \textbf{Fischer-Snedecor} à $n$ degré de liberté par : $F_{n_1,n_2} = \dfrac{\frac{X_1}{n_1}}
+{\frac{X_2}{n_2}}$ dont la fonction de \indent répartition est $f(u) = 
+\left \{
+\begin{array}{l}
+Cte \dfrac{u^{\frac{n_1}{2}} - 1} { (1 + \frac{n_1}{n_2} u) ^ {\frac{n_1+n_2}{2}}}\ \ u > 0 \\
+0\ \ ailleurs.
+\end{array}
+\right.
+$
+
+\subsection{Résumé du chapitre 1}
+
+\begin{tabular}{|*{4}{c|}}
+\hline
+\textbf{Nom de la loi} & \textbf{Symbole} & \textbf{Loi} & \textbf{Ordre des valeurs} \\
+\hline
+\textit{Normale} & $X_i$ & $N(0,1)$ & $\bar{X}_N$\\
+\hline
+\textit{Chi 2} & $\chi^2_n$ & $\sideset{}{_i^n}\sum{X_i^2}$ & De l'ordre du degré de liberté. \\
+\hline
+\textit{Student} & $S_n$ ou $T_n$ & $\dfrac{N(0,1)}{\sqrt{\dfrac{\chi_n^2}{n}}}$ & Autour de 0. \\
+\hline
+\textit{Fischer-Snedecor} & $F_{n_1,n_2}$ & $\dfrac{\chi^2_{n_1} / n_1}{\chi^2_{n_2} / n_2}$ & En général lorsque $u=1$. \\
+\hline
+\end{tabular} \\
+
+\textit{Il est conseillé de connaître ce tableau et de savoir le manipuler.}
+
+\section{Chapitre 2 - Problèmes paramétriques}
+
+En probabilités, on utilise un modèle afin de savoir générer des nombres qui se distribuent selon la loi considérée, par 
+exemple : 
+
+\includegraphics{Figure2-1.png}
+
+En statistiques, on fera le chemin inverse, on aura une série de mesures et à partir de celles-ci on essayera d'appliquer
+une loi. Par exemple : \\
+
+\begin{tabular}{|*{3}{c|}}
+\hline
+\textbf{Jour} & \textbf{Voiture} & \textbf{Mesures} \\
+\hline
+\textit{Lundi} & Voiture 1 & $x_1$ secondes \\
+\hline
+\textit{" "} & Voiture 2 & $x_2$ secondes \\
+\hline
+\textit{" "} & ... & ... \\
+\hline
+\textit{" "} & Voiture 213 & $x_{213}$ secondes \\
+\hline
+\textit{Mardi} & Voiture 1 & $x'_1$ secondes \\
+\hline
+\textit{" "} & Voiture 2 & $x'_2$ secondes \\
+\hline
+\textit{" "} & ... & ... \\
+\hline
+\textit{" "} & Voiture 217 & $x'_{217}$ secondes \\
+\hline
+\end{tabular} \\
+
+
+A partir des mesures, on peut définir la loi de probabilité comme une fonction : $f(x,param`{e}tres)$. Pour l'instant on 
+considère que l'on connaît $f$ mais on doit définir les paramètres, c'est ce que l'on appelle la statistique paramétrique.
+La question que l'on se pose donc est de savoir comment trouver les paramètres à partir des mesures effectuées.
+
+\noindent Un exemple de paramètre : $\lambda_{lundi}(x_1,x_2,x_3,...,x_{213}) = 62 min 13 sec$, \\
+\indent\indent\indent\indent\indent\indent\indent\indent $\lambda_{mardi}(x'_1,x'_2,x'_3,...,x'_{217}) 
+= 63 min 12 sec \rightarrow \lambda$ a un caractère aléatoire.
+
+\noindent On va avoir recours à un estimateur pour estimer le paramètre $\lambda$, $\lambda$\^{} : $\lambda$\^{}$(x_1,...,x_n)$
+v.a.r. associée à $\lambda$.
+
+\includegraphics{Figure2-2.png}
+
+$\rightarrow$ réalisation de l'estimateur $\lambda$\^{}$(X_1,...,X_n)$ (les $X_i$ sont des distributions de probabilité).\\
+
+\noindent On pose v.a.r. de population $X = $ temps d'assemblage sur la chaîne «machin» de la voiture «truc».\\
+$\rightarrow$ problème paramétrique : $f_\lambda(x,\lambda) \rightarrow$ nombre.
+
+\noindent On va se donner un $n$-échantillons $(X_1,...,X_n)\rightarrow \lambda$\^{}$(X_1,...,X_n)$, on définit $L$ la
+fonction de vraisemblance (on suppose que chaque expérience est semblable) par : 
+$L(x_1,...,x_n,\lambda) = \sideset{}{^n_{i=1}}\prod{f_{X_i}(x_i,\lambda)}$ \\
+
+\begin{tabular}{|*{4}{c|}}
+\hline
+\textbf{$1^{er}$ Jour} & \textbf{$2^{`eme}$ Jour} & ... & \textbf{$K^{`eme}$ Jour} \\
+\hline
+$x_1$ & $x'_1$ & ... & $x_1^{(k)}$ \\
+\hline
+... & ... & ... & ...\\
+\hline
+$x_n$ & $x'_m$ & ... & $x_p^{(k)}$ \\
+\hline
+$\lambda$\~{}($x_1$,...,$x_n$) & $\lambda$\~{}($x'_1$,...,$x'_m$) & ... & $\lambda$\~{}($x_1^{(k)}$,...,$x_p^{(k)}$) \\
+\hline
+\end{tabular} \\
+
+$\rightarrow$ histogramme des $\lambda$\~{} : \\
+
+\includegraphics{Figure2-3.png}
+
+\underline{Propriétés} : \\
+
+\includegraphics{Figure2-4.png}
+
+On veut que $E(\lambda$\^{}$) = \lambda$, c'est la propriété de l'estimateur \textbf{non-biaisé}.
+
+\section{Chapitre 3}
+
+\section{Chapitre 4}
+
+\end{document}

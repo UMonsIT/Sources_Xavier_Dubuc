@@ -1,0 +1,16 @@
+\select@language {french}
+\select@language {french}
+\contentsline {section}{\numberline {1}Chapitre 1 - 4 lois de r\IeC {\'e}f\IeC {\'e}rence}{2}
+\contentsline {subsection}{\numberline {1.1}Loi Normale}{2}
+\contentsline {subsection}{\numberline {1.2}Loi Chi 2 \IeC {\`a} $n$ degr\IeC {\'e}s de libert\IeC {\'e}}{3}
+\contentsline {subsection}{\numberline {1.3}Loi Student \IeC {\`a} $n$ degr\IeC {\'e}s de libert\IeC {\'e}}{5}
+\contentsline {subsection}{\numberline {1.4}Loi Fisher-Snedecor \IeC {\`a} $n_1$,$n_2$ degr\IeC {\'e}s de libert\IeC {\'e}}{6}
+\contentsline {subsection}{\numberline {1.5}R\IeC {\'e}sum\IeC {\'e} du chapitre 1}{6}
+\contentsline {section}{\numberline {2}Chapitre 2 - Probl\IeC {\`e}mes param\IeC {\'e}triques}{6}
+\contentsline {subsection}{\numberline {2.1}M\IeC {\'e}thode du maximum de vraisemblance.}{7}
+\contentsline {subsection}{\numberline {2.2}M\IeC {\'e}thode d'estimation par intervalle}{11}
+\contentsline {subsubsection}{\numberline {2.2.1}Tests d'hypoth\IeC {\`e}se}{14}
+\contentsline {subsubsection}{\numberline {2.2.2}Th\IeC {\'e}or\IeC {\`e}me de Neyman-Pearson}{17}
+\contentsline {subsubsection}{\numberline {2.2.3}M\IeC {\'e}thode du quotient de vraisemblance}{18}
+\contentsline {section}{\numberline {3}Chapitre 3}{20}
+\contentsline {section}{\numberline {4}Chapitre 4}{20}
