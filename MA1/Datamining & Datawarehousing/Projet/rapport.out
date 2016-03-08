@@ -1,0 +1,15 @@
+\BOOKMARK [1][-]{section.1}{Introduction au jeu de donn\351es}{}
+\BOOKMARK [2][-]{subsection.1.1}{Pr\351processing \046 Visualisation}{section.1}
+\BOOKMARK [1][-]{section.2}{Classification}{}
+\BOOKMARK [2][-]{subsection.2.1}{Conclusion de la section}{section.2}
+\BOOKMARK [1][-]{section.3}{R\350gles d'association}{}
+\BOOKMARK [2][-]{subsection.3.1}{Dataset initial}{section.3}
+\BOOKMARK [2][-]{subsection.3.2}{Conclusion de la section}{section.3}
+\BOOKMARK [1][-]{section.4}{Clustering}{}
+\BOOKMARK [2][-]{subsection.4.1}{EM}{section.4}
+\BOOKMARK [2][-]{subsection.4.2}{SimpleKMeans}{section.4}
+\BOOKMARK [2][-]{subsection.4.3}{Conclusion de la section}{section.4}
+\BOOKMARK [1][-]{section.5}{Conclusion}{}
+\BOOKMARK [1][-]{appendix.A}{Annexe 1 : r\350gles d'association}{}
+\BOOKMARK [2][-]{subsection.A.1}{Confiance minimale : 0.9, Support minimal : 0.2}{appendix.A}
+\BOOKMARK [2][-]{subsection.A.2}{Confiance minimale : 0.7, Support minimal : 0.2}{appendix.A}

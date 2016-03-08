@@ -1,0 +1,17 @@
+\select@language {french}
+\select@language {french}
+\contentsline {section}{\numberline {1}Introduction au jeu de donn\IeC {\'e}es}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Pr\IeC {\'e}processing \& Visualisation}{6}{subsection.1.1}
+\contentsline {section}{\numberline {2}Classification}{9}{section.2}
+\contentsline {subsection}{\numberline {2.1}Conclusion de la section}{15}{subsection.2.1}
+\contentsline {section}{\numberline {3}R\IeC {\`e}gles d'association}{15}{section.3}
+\contentsline {subsection}{\numberline {3.1}Dataset initial}{15}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Conclusion de la section}{18}{subsection.3.2}
+\contentsline {section}{\numberline {4}Clustering}{19}{section.4}
+\contentsline {subsection}{\numberline {4.1}EM}{19}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}SimpleKMeans}{25}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Conclusion de la section}{26}{subsection.4.3}
+\contentsline {section}{\numberline {5}Conclusion}{27}{section.5}
+\contentsline {section}{\numberline {A}Annexe 1 : r\IeC {\`e}gles d'association}{28}{appendix.A}
+\contentsline {subsection}{\numberline {A.1}Confiance minimale : $0.9$, Support minimal : $0.2$}{28}{subsection.A.1}
+\contentsline {subsection}{\numberline {A.2}Confiance minimale : $0.7$, Support minimal : $0.2$}{29}{subsection.A.2}
