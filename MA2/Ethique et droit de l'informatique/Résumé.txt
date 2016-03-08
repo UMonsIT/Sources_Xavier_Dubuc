@@ -1,0 +1,542 @@
+1. Nouveauté => intervention législative pour réglementer ce qui est nouveau.
+
+2. Pas moyen de faire une solution parfaite pour chaque cas. Un droit qui se baserait sur une approche scientifique des problèmes n'est pas possible car réalité complexe vu que sociale.
+
+3. Le fait qu'une nouveauté soit reconnue par le droit encourage son expansion et son accès par "monsieur tout le monde".
+
+4. Solutions apportées par le droit => dépendent de la technique en cause.
+
+5. Nouvelle technique -> nouvelles règles pour parer aux dangers ou régler les effets néfastes.
+
+6. Nouvelle technique -> nouvelles règles ou autres pour favoriser la généralisation de cette nouvelle technique si elle est bénéfique.
+
+7. Nouvelle technique -> adaptation d'anciennes normes en relations. (informatique -> normes sur l'utilisation des vidéos de surveillance)
+
+8. Nouvelle technique -> nouvelles normes pas forcément en rapport direct si cette technique entraîne de profonds changements sur la vie quotidienne. (automobile -> augmentation de la mobilité -> ouverture des frontières, ... ) informatique -> internet -> facilité d'obtenir du contenu -> normes sur l'enseignement, le travail, les loisirs, ... impactées (droits d'auteur, ...)
+
+9. Informatique -> ampleur si forte que partie du droit lui est consacrée. "Droit de l'informatique" regroupe la partie du droit qui à trait à l'informatique. On peut le définir comme la science qui étudie la collecte, le stockage, le traitement, la réunion, la distribution, et la communication au moyen de systèmes automatisés. Cette discipline touche à tout : le droit des contrats, droit de la responsabilité, droits intellectuels, ...
+
+10. Modification systèmes juridiques => révélatrice de la modification de notre système politique et social ?
+Démocratie -> droit forgé autour de l'idée de limitation du pouvoir.
+Informatique -> au coeur des relations de pouvoirs : par ex pouvoir du détenteur des fichiers nominatifs automatisés sur les individus fichés.
+Informatique utilisée par l'administration pour certains trucs internes mais elle peut pas utiliser que ça car sinon y'a plus de réflexion humaine dans les rapports avec les administrés et une loi a été émise pour que cette réflexion soit obligatoire. La loi oblige maintenant que toute décision soit motivée de manière formelle.
+
+11. L'informatique chamboule tout dans la répartition de pouvoir et dans la démocratie, l'excellence de l'informatique dans certains ministère crées des déséquilibres en leur sein ou avec d'autres ministères. Il n'y a plus qu'un pas à faire pour le rétablissement de la démocratie directe vu que les gouverneurs sont capables de parler directement avec les gouvernés grâce au développement des moyens de communications. L'informatique obligera à redéfinir la plce de l'Etat-Nation :
+- par le bas : quels rapports l'Etat-Nation nouera-t-il grâce à la télématique (télévision+informatique) avec les communautés de base ?
+- par le haut : quelles relations les Etats-Nations entretiendront-ils dans une société internationale automatisée, quel nouvel ordre de l'onformation se mettra en place ?
+
+==================================================================
+=================== INTRODUCTION GENERALE ========================
+==================================================================
+
+----------------------------------------
+1. Existence du droit de l'informatique
+----------------------------------------
+
+12. Est-ce que cet existence est justifiée parce que beaucoup de normes évoluent actuellement à cause du phénomène de l'informatique ?
+Elle n'est plus contestée, ce droit tient une place non négligeable aujourd'hui.
+Premier colloque consacré à l'informatique en 1971, il abordait déjà des problématiques sensibles comme le droit à l'information, la protection de la vie privée, ...
+Première proposition de loi régissant l'informatique le 9 juillet 1971.
+
+13. Beaucoup de propositions ont suivies jusqu'à l"adoption de la loi du 8 décembre 1992 relative à la protection de la vie privée à l'égard des traitements de données à caractère 
+personnel. Entre temps diverses lois ou règlementations portant sur des banques de données particulières ou d'autres aspects de la révolution informatique avaient vu le jour.
+Mais ces aspects n'était que trop sommairement abordés. Aussi, sur un plan internationale, il y a eu des travaux en ce qui concerne le traitement des données nominatives et le problème de la fraude informatique, la facilitation des procédures du commerce international et en matière de propriété intellectuelle. L'importance de tous ces textes normatifs est telle que l'existence du droit de l'informatique ne peut plus être niée.
+
+-------------------------------------------------------------------
+2. Tentative de définition du droit de l'informatique par son objet
+-------------------------------------------------------------------
+
+14. L'informatique ne connaît pas de secteurs ou de matières sociales, économiques ou politiques, elle a une influence sur tout. Ce n'est donc pas qu'une branche particulière d'une 
+des branches déjà existantes du droit. --> On pourrait croire alors que le droit de l'informatique n'a aucune spécificité.
+
+15. Cependant on ne peut nier une certain spécificité. D'abord, il possède des textes normatifs qui lui sont propres (réglementation des droits intellectuels sur les biens informatiques, des banques de données à caractère personnel, ...). Ensuite, par la haute technicité qui la caractérise, l'informatique a permis d'affiner les règles du droit commun qu'on entendait lui appliquer. Enfin, le droit de l'informatique procède à une fusion, parfois difficile, de règles nouvelles et de règles de droit commun.
+Par exemple : dans la législation du registre national des personnes physique, une loi attribue à chaque individu un numéro identifiant unique pour ses rapports avec l'autorité, les organismes parastataux et nombreux interlocuteurs privés. L'échange de données entre les différents personnes utilisant ce numéro doit être effectué dans le respect des principes légaux du droit commun administratif.
+
+----------------------------------------
+3. Caractères du droit de l'informatique
+----------------------------------------
+
+16. Le droit de l'informatique est :
+- un droit-carrefour c'est-à-dire qu'il considère beaucoup de disciplines juridiques différentes.
+- hétérogène au niveau de ses sources qui sont tant nationales qu'internationales (GATT, OCDE, UNESCO, OMPI, UE, conseil de l'Europe,... )
+- hétérogène au niveau des autorités chargées de l'appliquer.
+
+17. C'est également un droit évolutif par excellence car il encadre une technologie en évolution permanente.
+
+======================================================================================================================================================================================
+=================== CHAPITRE 1 : INFORMATIQUE ET DROIT AU RESPECT DE LA VIE PRIVÉE - PROTECTION DE L'INDIVIDU CONTRE LES TRAITEMENTS DE DONNÉES À CARACTÈRE PERSONNEL ================
+======================================================================================================================================================================================
+
+----------------------------------------------------------
+Section 1 : Notion et fondement du droit de la vie privée
+----------------------------------------------------------
+
+18. Droits de l'homme pcq états profitaient du pouvoir donc droits de l'homme pour protéger les citoyens. Puis prolétariat ouvrier -> nouveaux droits et règles pour protéger l'individu contre les actions des particuliers. 
+
+19. La notion de protection de la vie privée fait son apparition le 4 novembre 1950, date de l'article conférant à tout le monde le droit de protection de cette vie privée.
+Aujourd'hui la constitution dit : "Chacun a droit au respect de sa vie privée et familiale, sauf dans les cas et conditions fixés par la loi". La notion de vie privée n'est pourtant
+définie nulle part, tout simplement parce qu'elle échappe sans doute à toute définition satisfaisante.
+
+--------------------------------------
+Section 2 : Dangers de l'informatique 
+--------------------------------------
+
+20. Ils sont nombreux. Chaque personne belge figure dans des milliers de fichiers privés qui servent à fournir aux détenteurs, à leurs associés ou à leurs clients une image assez précise mais fort incontrolée de notre personne. Les banques de données à caractère personnel sont les premières à être attentatoires à la vie privée. Ces banques de données consistent en des fichiers automatisés donnant des informations factuelles et numériques sur les individus.
+
+21. Au niveau de la collecte des informations, la vie privée est déjà mise gravement en péril. L'informatique a aidé les hopitaux à informatiser les dossiers de patients, les 
+employeurs les dossiers de leurs employés, ... aucun aspect de notre vie n'est épargné par les fichiers informatisés. Il se peut que ces informations collectées soient des rumeurs ou juste des données fausses. Ceci est souvent le cas car les questionnaires sont parfois mal compris ou les réponses inadéquates. Certaines collectes sont elles-mêmes dangereuses voire illicites (attaque sur un serveur pour récupérer les données bancaires de particuliers).
+
+22. Transcription de données = danger aussi. Une petite faute de frappe et bardaf ! Par ex : Oussama Ben Liden retranscrit en Ben Laden fait passer un citoyen normal en un terroriste international ... ! Plus sérieusement, des héros de guerre ont été fichés comme déserteurs, des bourgeois fichés comme mauvais payeurs, ...
+
+23. Erreurs humaines possibles ou d'autres erreurs de l'ordinateur (erreur d'arrondi ou perte de mémoire du à un choc, thermique ou pas), l'ordinateur ne faisant que ce que l'humain qui l'a programmé lui a demandé. Ainsi un logiciel a fait croire pendant 10 minutes le 10nov79 qu'un missile soviétique se dirigeait vers les Etats-Unis et la procédure anti missile s'est  déclenchée mais le pire a été évité de justesse... pas funfun !
+
+24. Dangers lors de l'interpretation des résultats. Faire attention car c'pas parce que ça vient de l'ordi que y'a pas d'erreurs. Les dangers viennent surtout des banques de données car même si ces données sont innocentes prises seules, ensemble, un individu peut tirer quelques conclusions beaucoup moins innoncentes. (Exemple des mormons qui ont récupére mass info sur les morts et leur généalogie)
+
+25. Les dangers les plus importants sont ceux qui se situent au niveau de la diffusion de l'information. Que celle-ci soit volontaire ou non, ses dangers pour la vie privée sont présents. Par ex, une fois que tu as été endetté, (toutes ?) les banques sont au courant et ne t'accordent plus jamais de crédit. Le pire reste les chevaux de Troie et compagnie qui permettent à leur instigateur de récupérer des informations à l'insu même des personnes. De tels faits sont condamnés depuis 1976.
+
+26. Aucune limite de temps pour les enregistrements -> pas de suppression pour faire de la place, on change de disque dur et hop. Cela va à l'encontre de l'idée reçue qui veut qu'on ne devrait pas payer toute sa vie des erreurs passées et que donc des informations concernant des délits ou autres pardonnés ou réparés vieilles d'un certain laps de temps devraient être détruites.
+
+-------------------------------------------------------------------------------------------------------------------
+Section 3 : Relativité du concept du droit au respect de la vie privée et relativité des dangers de l'informatique.
+-------------------------------------------------------------------------------------------------------------------
+
+27. Droit au respect de la vie privée -> pas un droit absolu. Ce droit peut être outrepassé si il en va de la sécurité nationale, sûreté publique, bien-être économique du pays, ...
+OK pour les deux premiers et d'autres, mais le bien-être économique du pays c'est un peu bizarre mais il faut l'admettre si on veut vivre dans une démocratie.
+
+28. Exigences d'une démocratie sociale sont nombreuses et la collecte de données existait bien avant l'informatique. Ce qui différencie la démocratie de la dictature est que les ingérences du pouvoir sont à chaque fois prévues par la loi, c'est-à-dire par un acte législatif émanant des représentants de la nation qui ont été élus démocratiquement. L'informatique n'est donc là qu'un moyen de mettre en oeuvre les ingérences voulues par le législateur.
+
+29. Exemples d'ingérence voulue :
+- Surveillance rapprochée des suspects,
+- Les législations sociales et fiscales (mutualité, impôts, ...)
+
+30. Mettre en corrélation des informations inoffensives peut faire apparaître des aspects dont la divulgation peut être une atteinte à la vie privée.
+
+31. La question essentielles est-elle de savoir si l'informatique, dans les rapports Administration-administrés, est ou non attentatoire à la vie privée ?
+Non, le degré d'atteinte possible à la vie privée est contenu dans les textes légaux eux-mêmse et, pour le juriste, les seuls vrais problèmes sont d'une par, celui de l'adéquation des lois au respect de la personne humaine et, d'autre part, celui de savoir si l'Administration, dans ses applications informatiques, respecte le seuil d'atteinte à la vie privée autorisé par la loi. La première interrogation, osef pour le cours. La seconde, à savoir si l'Administration respect les normes existantes en manière de protection de la vie privée.
+L'information administrative, qu'elle fasse ou non l'objet d'un traitement automatisé, doit toujours être compatible avec les exigences suivantes :
+- être de celles que l'Administration a le droit de recueillir, de traiter et de conserve,
+- avoir été obtenue par des moyens licites,
+- être utilisée conformément au but déterminé assigné par le législateur à l'Administration et être communiquée uniquement aux personnes à qui le législateur a entendu qu'elle puisse être communiquée et dans les cas autorisés par la loi.
+
+32. Vu que le degré d'atteinte possible à la vie privée est contenu dans les textes légaux, pourquoi ne pas utiliser l'informatique pour rendre ça plus facile, plus rapide et moins 
+sujet aux erreurs et paradoxalement plus confidentiel ! La seule véritable grande crainte vient des interconnexions des banques de données où des utilisations de données pour des finalités autres que celles prévues à la base. Cette crainte puisant sa source dans les interconnexions de plus en plus nombreuses entre ces banques de données et qui finiraient par constituer le nouveau "cerveau" du pays.
+
+------------------------------------------------------------------------------------------------------
+Section 4 : Problématique d'une réglementation de l'informatique - aspects internationaux et nationaux
+------------------------------------------------------------------------------------------------------
+
+33. Need réglementation internationale car les données traversent facilement les pays et si les règles sont pas uniformisées, certaines pourraient être contournées en prétextant un 
+traitement des données fait à l'étranger. L'idée utilisée est de laisser les donner circuler librement mais de garantir une protection minmum, un noyau inconditionnel et uniforme de droits garantis dans chat Etat.
+
+34. Les travaux de roxxors sont ceux du Conseil de l'Europe qui s'est intéressé au problème de la protection de la vie privée face aux fichiers informatisés. Au départ, en 1968, il n'y avait que des réglementations pour tout ce qui est écoute téléphonique et prises de vue clandestines mais le traitement de données personnelles (les habituelles banques de données) a été également soumis à des réglementations par la suite (73-74).
+
+35. Conseil de l'Europe = défense des droits des individus et OCDE = développement harmonieux du libre échange en matière d'informations. En 1977, un colloque regroupant le travail des deux s'est conclu par l'idée que les droits nationaux sont à eux seuls insuffisants pour assurer l'équilibre entre la protection des données à caractère personnel et le progrès
+souhaité de la téléinformatique sur le plan international ==> need des accors internationaux. Une recommandation a été adopté par l'OCDE concernant les lignes directrices régissant la protection de la vie privée et les flux transfrontières de données de caractère personnel dont le contenu est très proche de la convention du conseil de l'Europe. Ces lignes directrices n'ont cependant pas la valeur juridique d'une convention mais elles sont suivies par pas mal de pays.
+
+36. La communauté européenne a elle aussi agit dans ce secteur. En 1976, le Parlement européen a adopté une résolution recommandant à la Comission de rassembler les faits et renseignements devant servir à l'élaboration d'une directive. Les justifications de ces travaux étaient :
+- les ramifications internationales de certaines banques de données,
+- les distorsions de concurrence pouvant survenir d'une absence d'harmonisation des législations nationales,
+- le soucis de rechercher un consensus politiue sur des règles communes plutôt que d'harmoniser a posteriori des législations internes contradictoires.
+Le 18juil1990, la Commission approuvé une communication destinée au Conseil contenant six propositions d'actions concrètes visant à assurer dans la Communauté européenne une protection des données et une sécurité accrue et harmonisée des systèmes d'information. Ces 6 propositions étaient :
+1) une directive cadre qui a pour but une protection équivalente de haut niveau. Celle-ci énonce les principes à garantir qui vont des conditions dans lesquelles un traitement de données à caractère personnel est légitime aux droits de la personne concernée (droits à l'information, d'opposition, ...) en passant par les qualités que doivent revêtir les données (exactes, collectées licitement, ...). Les états membres ne peuvent plus de cette manière opposer des restrictions à la libre circulation des données à caractère personnel sous prétexte de protéger leurs ressortissants car tout citoyer européen bénéficie d'une protection équivalente dans chaque Etat membre.
+
+2) une recommandation en faveur de l'ouverture de négociations en vue de l'adhésion de la Communauté à la convention du Conseil de l'Europe, celle-ci devant servir de support aux 
+relations avec les pays tiers.
+
+3) une résolution visant à étendre les principes de la directive cadre aux fichiers du secteur public échappant au champ d'application du droit communautaire.
+
+4) une déclaration étendant la disposition de la directive générale aux institutions et organismes de la Communauté.
+
+5) une directive visant la protection des donées de la vie privée dans le contexte spécifiques des réseaux de télécommunications numériques publics, en particulier, du Réseau numérique à intégration de services (RNIS) et des réseaux numériques mobiles publics.
+
+6) Une proposition de décision du Conseil concernant l'adoption d'un plan d'action de 2 ans en matière de sécurité des systèmes d'information.
+
+Un des textes les plus importants adoptés suites à ces propositions est la directive 65/46/C.E. du Parlement europée et du Conseil du 24 octobre 1995 relative à la protection des personnes physiques à l'égard du traitement des données à caractère personnel et à la libre circulation des données. Elle a pour but d'éviter que la libre circulation de l'information entre les Etats membres de l'Union soit limitée de façon excessive au nom des droits et libertés des personnes. L'objectif est atteint en assurant la protection des droits fondamentaux de façon équivalente dans les divers Etats membres.
+
+37. La convention servant de base est donc celle du Conseil de l'Europe n°108 de 1981. Cette convention prévoit trois types de disposition :
+- elle énonce d'abord les principes de bases. obligation pour les Etats de mettre des dispositions normatives nécessaires pour que les principes essentiels soit observés (droit d'accès et de correction, obligation de sécurité, ...)
+- en matière de flux transfrontières, un état ne peut pas ajouter des autorisations spéciales à un autre état. (conséquence de l'obligation pour les états de prendre des mesures de protection minimales)
+- désignation dans chaque Etat d'une autorité se chargeant de fournir des informations et de mener des investigations sur demande d'autres Etats à propos de traitement de données détemriné effectué sur son territoire ou à propos de son droit/pratique administration en matière de protection.
+
+Un pays peut, par contre, imposer des règles restrictions à l'importation de données si ses lois internes accordent une protection plus étendue que celles du pays d'origine.
+
+38. Le problème reste entier car les solutions ne concernent que les pays ayant ratifié l'accord international. Dès que cela implique un élément externe, tout tombe par terre !
+La loi adoptée pour contourner ce souci au seins des pays membres implique que l'Etat d'origine sache la destination finale des données, ce qui est vaguement utopique.
+--> need plus grande internationalisation des normes.
+
+39. L'ONU s'est intéressé à ce problème mais sans aboutissements à cause des réticences des pays du tiers monde dont ce genre de problème est loin d'être la priorité.
+
+40. Même si ces travaux n'ont réussi que partiellement, il existe déjà +/- des règles communes à tous les Etats ayant émis des lois en la matière.
+
+-----------------------------------------------------------------------------------------------------------------------------
+Section 5 : Aperçu du droit positif belge en matière de banque de données et de protection des données à caractère personnel
+-----------------------------------------------------------------------------------------------------------------------------
+
+	_________________________________________________________________
+	Sous-section 1 : Existence des banques de données administratives
+	_________________________________________________________________
+
+41. Impossible de schématiser ou de dresser une liste exhaustive des différentes obligations et modalités d'information des administrés à l'égard de l'administration et du secteur publique en général.
+--> mass fichiers informatiques du secteur public, crées par le législateur ou le pouvoir exécutif usant d'habilitations légales ou encore par les services administratifs.
+Parmis ces grands fichiers publics :
+- Le registre national des personnes physiques,
+- Le registre national des personnes morales,
+- La centrale des risques,
+- La centrale des crédits aux particuliers,
+- La liste des entrepreneurs enregistrés,
+- Les fichiers de l'Institut national de statistiques,
+- Les fichiers spécifiques du secteur social (ONSS,ONEM,INAMI,INASTI,...),
+- les fichiers de la police,
+- les fichiers des abonnés au téléphone,
+- les fichiers des administrations discales (fichiers des assujetis TVA, ... )
+- les fichiers des véhicules immatriculés,
+- les fichiers "radio-télévision-redevances",
+- la banque de données relatives au membres du personnel du secteur publique,
+- la Banque publique de données sociales ou Banque-Carrefour de la sécurité sociale,
+- ...
+
+42. Les fichiers existaient déjà avant qu'une loi de 92 réglemente de manière globale la protection des individus en matière de traitement automatisé des données à caractère personnel. 4 textes légaux ont organisés quatre importants traitements informatisés de données à caractères personnel : 
+	1. Le registre national des personnes physiques,
+	2. les fichiers l'INS,
+	3. la banque centrale de données,
+	4. la banque-carrefour de la sécurité sociale.
+
+	__________________________________________________________
+	Sous-section 2 : Registre national des personnes physiques
+	__________________________________________________________
+
+
+- A. Historique -
+
+43. Crée en 1968. 1983 : 9.2000.000 personnes physiques et 150.000 personnes morales au moment d'adopter la loi du 8 août 83, la loi Nothomb.
+Au départ juste un service rendu aux communes pour leurs fichiers de population mais aucune loi donc peur jusqu'à loi Nothomb.
+
+44. Nouveau but du registre : faciliter la tenue à jour des fichiers de l'ensemble des administrations publiques. Pour ce faire, deux éléments nécessaires ont été apportés par la loi Nothomb :
+- obligation de flux d'information vertical des communes vers le registre -> registre exhaustif et bien à jour,
+- autorisation pour le registre de communiquer des informations de manière horizontale vers les autres administrations.
+
+Cette loi Nothomb a également répondu à des préoccupations essentielles comme l'allègement du coût de la tenue des fichiers administratifs pour les finances publiques et la mise sur pied s'un numéro d'identification unique permettant le dialogue entre les banques de données des administrations et la possibilité pour le registre de devenir un organe de transmssion administratif entre les communes et les administrations.
+
+Heureusement, dans ces préoccupations, la protection de la vie privée n'a pas été (trop) oubliée.
+
+- B. Personnes concernées -
+
+45. Le personnes concernées sont les personnes physiques inscrites :
+- au registre de population ou des étrangers d'une commune,
+- aux registres tenus dans les missions diplomatiques et les postes consulaires belges à l'étranger,
+- (depuis 94) les demandeurs d'asile,
+- (depuis 94) les SDF,
+- (depuis 94) les gens du voyage.
+
+- C. Données enregistrées -
+
+46. Le registre retient prioritairement (avec leurs mises à jour et leur date de prise d'effet) :
+- les noms & prénoms,
+- le lieu et date de naissance,
+- le sexe,
+- la nationalité,
+- la résidence principale,
+- le lieu et la date de décès,
+- la profession,
+- l'état civil,
+- la cohabitation légale,
+- la composition du ménage.
+
+Depuis 94 : le registre où la personne s'est inscrite et la situation administative pour les demandeurs d'asile.
+
+47. Un danger guette autour de la nécessité de stocker la composition du ménage car pas définit de manière légale par la loi Nothomb, mais le gouvernement a rassuré en disant que 
+c'était définit dans une circulaire ministérielle.
+
+48. Une commune peut demander une autre information que les 11 citées précédemment mais ces informations ne sont disponibles que pour cette commune.
+
+49. A ces informations s'ajoute l'identifiant dont la composition est fixée par un arrêté royal datant du 3avril84. Ils n'ont pas pris le numéro de l'acte d'état civil car cela aurait facilité l'accès à des informations confidentielles. (En France ils font comme ça, c'pour ça que son utilisation est beaucoup plus restrictive)
+
+50. Comment calculer son numéro de registre national ...
+
+51. Ce numéro est sur les cartes d'identité et de sécurité sociale. Au départ il n'était nullement spécifié qu'un individu était obligé de le connaître et de le fournir à l'autorité.Il était craint que ce numéro ne remplace le nom des individus dans leurs rapports avec cette autorité. (le Rapport du Roi disait que ce numéro devait être facilement mémorisable). A présent cette obligation est consacrée en matière de sécurité sociale et d'impôts. Le danger ne réside pas dans l'utilisation de ce numéro mais dans son existence même qui permet les interconnexions entres les différentes banques de données à caractère personnel.
+
+- D. Fonctionnement et communication des données -
+
+52. La loi du 8 aout 1983 a organisé 3 principaux flux de données :
+- vertical, communes&missions diplomatiques&postes consulaires belges -> registre national et registre national -> commune,
+- horizontal, registres -> autorités publiqes, organismes d'interêt publique, leurs sous-traitants, les notaires, les avocats, huissiez de justice, l'Ordre des pharmaciens.
+- le transit obligatoire ou "switching"
+
+a) Le flux vertical
+   -----------------
+
+  	53. Rappel useless
+  	54. Communes responsables des données fournies. (idem pour les consulats, ...). Les communes ont le droit d'accéder aux données du registre national, même si elles ont été enregistrées par une autre commune (ou autre consulat ou autres) à des fins de gestion interne et les informations ne peuvent faire l'objet de communication à des tiers.
+  	Elles peuvent utiliser le numéro du registre national pour :
+  		- la gestion interne des fichiers et des traitements qu'elles sont tenus de réaliser en exécution d'obligations légales,
+  		- les échanges d'informations avec le registre national, avec l'organisme agréé auquel la commune est éventuellement affiliée, avec les autorités publiques et les organismes qui ont été autorisés à utiliser également ce numéro et finalement dans leur relation avec le titulaire du numéro.
+
+  	55. Les communes et missions diplomatiques et consulaires doivent désigner un "agent" qui veille à la tenue à jour et à la conformité des informations, au secret professionnel, aux mesures de sécurité, ...
+
+  	56. Toute info supplémentaire enregistré par une commune au registre national n'est accessible que pour cette commune.
+
+b) Le flux horizontal
+   ------------------
+
+   57. Un accès au registre était soumi à arrêté royal et maintenant au Comité de surveillance sectoriel (mini commission veillant à la protection de la vie privée).
+   	Une telle autorisation ne peut être consentie que :
+   		- aux autorités publiques,
+   		- aux organismes d'intérêts publics,
+   		- aux notaires, huissiers et aux ordres des avocats,
+   		- aux organismes sous-traitants.
+   	Pour les demandeurs d'asile, une liste des autorités et organismes pouvant accéder à ces données est régie strictement par la loi.
+
+   	58. Parmi les autorités publiques ayant cet accès, on trouve :
+   		- le Ministre de la justice,
+   		- certaines autorités du Ministère des finances,
+   		- le Secrétaire permanent au recrutement,
+   		- les juges d'instruction, les magistrats du ministère public et les officiers et agents judiciaire près les parquets,
+   		- la gendarmerie,
+   		- ....
+
+   	59. Parmi les organismes d'interêt publique :
+   		- Caisse Nationale d'Assurances Sociales des Travailleurs Indépendants,
+   		- ONSS,
+   		- Banque-carrefour,
+   		- Institut National d'Assurance Maladie-Invalidité,
+   		- ...
+
+   	60. Coté privé on peut compter la SA "IDOC", la société ayant fabriqué les cartes d'identité, les caisses d'assurances sociales pour travailleurs indépendants, les mutualités, les caisses de compensation pour allocations familiales, ...
+
+   	61. L'autorisation reçue ne concerne que les informations nécessaires au demandeur.
+
+   	62. Ces autorités et organismes peuvent aussi demander à pouvoir utilise le numéro pour des finalités et dans des limites spécifiées. Celui-ci ne peut donc pas être utilisé pour autre chose que ce qui est prévu par l'habilitation.
+   	L'office des pensions a ainsi été autorisée à utiliser ce numéro pour identifier les personnes en droit de recevoir une pension, dans les autres on compte :
+   		- le Ministère de la prévoyance sociale,
+   		- l'Office des étrangers,
+   		- le Ministère des finances,
+   		- les administrations communales,
+   		- le service radio-télévision-redevances,
+   		- les CPAS,
+   		- la Banque nationale de Belgique,
+   		- la Banque-Carrefour de la sécurité sociale,
+   		- les mutualités et les hopitaux,
+   		- ...
+
+c) "Switching" ou transit obligatoire
+   ----------------------------------
+
+   63. Flux communes -> autorités publiques et organismes d'intérêt public transitant par le registre national, celui jouant le rôle de simple "relais".
+   Lorsque des autorités publiques ou des organismes d'intérêt public sont autorisés en vertu de la loi ou d'un décret à demander aux communes des informations supplémentaires (autres que les 11 de bases), la transmission de ces infos par le registre peut-être rendue obligatoire par le Comité sectoriel. Ces infos ne peuvent être conservées au registre national. La raison d'être (ratio legis) de cette loi se trouve dans la rationalisation qu'apporte le rôle de relais du registre dans ces transmissions.
+
+   64. Un exemple : le prélèvement et la transmission d'organes. Si quelqu'un est opposé au prélèvement d'organes, il doit le faire savoir à sa commune qui est obligée d'en faire 
+   mention dans le registre de population. Ensuite la commune doit envoyer ces données au Centre de traitement et de l'information du Ministère de la santé publique et de la famille. Cette transmission se fait via le registre national. Le Ministre et le Secrétaire d'Etat ayant la santé publique dans leurs attributions (ainsi que certains de leurs fonctionnaires), sont autorisés à utiliser le numéro du registre national pour identifier des personnes dont la déclaration de volonté en matière de prélèvement d'organes a été communiquée.
+
+   Une base de données est alors créée via le numéro de registre national, base de données à la base innocente mais qui au final se révèle être une liste des personnes vivant en Belgique et étant témoins de Jéhovah ... !
+
+d) YENAPAS ! Oo
+
+e) Flux d'informations résultant de l'usage du numéro d'identification
+   -------------------------------------------------------------------
+
+   	65. L'autorisation d'utilisation autorise :
+	   	- soit un usage interne comme pour l'institut national de statistique,
+   		- soit un usage externe pour communiquer avec d'autres autorités ou organismes,
+
+   	66. Le numéro c'est cool ça fait économiser des sous car tout le monde utilise celui là et c'est plus simple.
+   	[MAIS] le danger est quand même présent ! Une utilisation intensive est dangereuse car elle peut indirectement obliger ou permettre son utilisation à des personnes qui ne 
+   	devraient pas. 
+
+f) Autres usages du numéro
+   -----------------------
+
+   67. On l'utilise pour les finances, payer les impôts (ils l'utilisent pour récolter des informations sur nous auprès de tous les organismes étant tenus de fournir de telles informations, c'pour ça que TAXonWeb remplit déjà certaines parties de la déclaration). Son usage est même parfois obligatoire sous peine de sanctions.
+
+   68. Une utilisation déroutante a également été ajoutée en 92 : "Sauf preuve contraire, sont présumées avoir établi en Belgique leur domicile ou le sigèe de leur fortune, les personnes physiques qui sont inscrites au registre national des personnes physiques". Autrement dit, même si vous vous êtes inscrits dans un consulat belge à l'étranger, vous êtes considéré comme Belge et donc asujettis aux impots belges.
+
+g) Délai de conservation des données
+   ---------------------------------
+
+   69. 30 ans à partir du décès (à part celles via Switching qui ne peuvent être maintenues).
+
+	__________________________________________________________
+	Sous-section 3 : Banque-Carrefour de la sécurité sociale
+	__________________________________________________________
+
+
+	A. Historique
+	-------------
+
+	70. L'administration de la sécurité sociale possède une tradition et une culture informatique assez ancienne et tributaire de l'organisation administrative de la sécurité sociale et des modalités de gestion des organismes parastataux qui en constituent l'ossature.
+	Chaque branche de la sécurité sociale (pension, accidents de travail, maladies professionnelles, ....) est gérée par un organisme parastatal central et cette gestion est assurée avec la collaboration d'organismes nés d'initiatives privées, souvent à caractère politique ou syndical marqué (mutualites, caisses d'allocations familiales, ...).
+
+	Informatisation car agacement des gens ou des organismes à devoir fournir plusieurs fois la même information (parfois sous des formes différentes), ralentit le traitement des dossiers d'assurés sociaux et cela augmente inutilement les frais de gestion administrative.
+
+	71. Création de la banque carrefour pour regrouper toutes les données et faciliter tout ça (tout passe par elle). Cette simplification, harmonisation et cette coordination de la sécurité sociale passe pour l'essentiel par la voie législative traditionnelle et la voie technique faisant appels aux facilités de gestion offertes par le traitement automatisé des données. Cette informatisation poussera nécessairement aux simplifications et aux harmonisations légales ou réglementaires chaque fois que cela se justifie.
+
+	B. Statut et missions de la Banque-Carrefour (B-C)
+	---------------------------------------------
+
+	72. Il s'agit d'un organisme public doté de la personnalité civile soumis à un régime juridique similaire à celui des organismes parastataux de sécurité sociale, càd une gestion paritaire associant les partenaires sociaux.
+
+	73. La B-C :
+		- n'a pas pour mission de centraliser la collecte, l'enregistrement ou le traitement de données sociales, ces missions relèvent toujours des divers organismes de sécurité sociale qui reste autonome à cet égard,
+		- fait uniquement office d'organisme carrefour, intermédiaire par lequel tout échange de données entre les organismes de sécurités sociales (ou entre eux et un tiers) doivent se dérouler.
+		- se borne à coordonner et controler le fonctionnement du réseau constitué par les banques de données socials, la B-C et le registre national.
+		- accord aux organismes un accès contrôlé à l'information enregistrée dans les différentes banques de données du réseau,
+
+	La collecte reste donc en charge de l'organisme désireux de les obtenir, mais celui-ci se doit de s'assurer auprès de la B-C que ces données ne sont pas disponibles dans la banque de données d'un autre organisme du réseau.
+	La B-C maintient un répertoire des personnes pouvant être subdivisé en sous-répertoires : de localisation (branche ou organisme), de qualification, de référence (tel organisme a tel donnée en sa possession), de contrôle (tel organisme a accès à telle donnée).
+
+	Enregistrement décentralisé sous les directives de la B-C, permettant de limiter les enregistrements superflus ou multiples.
+
+	Ces enregistrements, pour protéger la vie privée, sont faits par branche de la sécurité sociale afin de garantir la confidentialité de données telles que l'affiliation syndicale ou l'affiliation mutualiste.
+
+	74. Malgré ces enregistrements décentralisés, la B-C peut également enregistre et conserver un certain nombre de données d'identification à caractère personnel. Ces données sont celles dont plusieurs organismes de sécurité sociale ont régulièrement besoin.
+
+	75. La B-C est également chargée de transformer les données disponibles dans le réseau en informations statistiques, sociologiques, économiques et financières "dépersonnalisées", utiles à la connaissance, à la conception et à la gestion de la sécurité sociale. Ces informations ainsi que des échantillons représentatifs sont accessibles aux ministres de la sécurité sociale, aux chambres, aux institutions publique de sécurité sociale, au Conseil nation du travail, au Conseil supérieur des classes moyennes et au Bureau du Plan.
+
+	C. Liens entre la B-C et le Registre national - Sort du numéro identifiant
+	--------------------------------------------------------------------------
+	
+	76. La B-C a accès aux données de base du registre national et a le pouvoir d'utiliser le numéro identifiant. Pour les personnes n'étant pas inscrites au Registre national, un numéro identifiant spécifique au réseau de la B-C a été prévu.
+
+	D. Etendue du réseau - schéma et fonctionnement
+	-----------------------------------------------
+
+	77. Etendue très large car touche tout les régimes d'assurances sociales ou d'aide sociale.
+
+	78. Schéma qui montre deux niveaux :
+		- réseau primaire dans lequel sont intégrés les organismes coordinateurs de la sécurité sociale, il s'agit de la majorité des oranismes parastataux. Ils sont reliés directement à la B-C de la sécurité sociale.
+		Dans ce réseau: AIS, CIMIRE, CIN, CSP, FAT, FMP, INAMI, INASTI, ONAFTS, ONEM, ONP, ONSS, ONSSAPL, ONVA, OSSOM, SdPSP, SPF Emploi Travail et Concertation sociale, SPF Sécurité sociale.
+		- réseau secondaire constitué par les institutions coopérantes de sécurité sociale . Les membres de ce réseau sont tous reliés à un organisme du réseau primaire qui gère et coordonne la branche en cause qui lui même est relié à la B-C. Ainsi les caisses de vacances ont accès à la B-C via l'ONVA. La communication entre ces 2 organismes ne se fera pas nécessairement via la B-C mais celle-ci devra autoriser l'échange des différents types de données.
+		Dans ce réseau : le réseau des caisses d'assurances sociales pour travailleurs indépendants, le réseau des caisses de paiement des allocations de chômage, le réseau des caisses d'allocations familiales, le réseau des caisses de vacances annuelles, le réseau des organismes assureurs et mutualités, le réseau des CPAS, le réseau des assureurs accidents du travail, le réseu des fonds de sécurité d'existence.
+
+		Certains organismes utilisent leur propre réseau pour communiquer, réseau chapeauté par l'organisme sociale du réseau primaire s'occupant de la branche. Certains sous-organismes ont également un accès direct à la B-C pour protéger certaines données. C'est le cas des organismes assureuers en matière de maladies pour protéger des données idéologiques et médicales pour certaines applications. La communication vers la B-C via l'INAMI étant toujours possible.
+
+		La B-C est également relié à des banques de données externes, et principalement au registre national. Tout accès d'une institution sociale au registre se fait par la B-C.
+
+		Les institutions sont tenues de communiquer à la B-C toutes données dont celle-ci a besoin pour sa mission. Celle-ci définit alors quel organisme se doit de les enregistrer et celui-ci est tenu de le faire.
+		Celui-ci est également tenu de les tenir à jour.
+
+		80. Toute communication via la B-C sauf si la comm a pour destinataire:
+		- les personnes auxquelles les données se rapportent, leurs représentants légaux ainsi que leurs mandataires,
+		- les personnes autres que les institutions sociales, qui ont besoin de ces données en vue de remplir leurs obligations en matière de sécurité sociale, leurs préposés, mandataires et leurs sous-traitants pour l'application de la sécurité sociale,
+		- les organismes de droit étranger, pour l'application des conventions internationales en matière de sécurité sociale,
+		- les institutions de sécurité sociale elles-mêmes, leurs préposes ou mandataires, dans des cas déterminés par arrêtés royaux.
+
+		E. Mesures de protection de la vie privée.
+		------------------------------------------
+		81. La loi prévoit diverses mesures de protection de la vie privée qui ont pour objet commun les "données sociales à caractère personnel", expression définie par la loi comme étant "toutes les données nécessaires à l'application de la sécurité sociale" même si, il s'agit plutot de TOUTES les données à caractère personnel en possession des institutions de sécurité sociale. D'autres mesures de protection ont également pour objet les "banques de données sociales", expression définie par la loi comme étant "les banques de données où des données sociales sont conservées par les institutions de sécurité sociale ou pour leur compte". De par cette définition, les fichiers ne figurant pas sur support informatique sont également protégés.
+
+		a) Mesures d'autocontrôle
+		~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+		82. Principe de finalité et de spécialité : base de toute l'éthique de l'utilisation des fichiers informatisés publics.
+			-> Les personnes qui veulent des données, ne peuvent les obtenir que s'ils en ont besoin pour une application de sécurité sociale. Elles ne peuvent disposer de ces données que le temps nécessaire à l'accomplissement de cette application et elles sont tenues de prendre toutes les mesures permettant d'en garantir le caractère confidentiel.
+
+		83. Devoir de discrétion.
+			-> Toute personne en contact avec de telles données est tenu d'en respecter le caractère confidentiel sauf si la loi l'oblige à faire connaître ce qu'il sait.
+
+		84. En matière de flux d'informations, toute communiation de données dans ou hors réseau doit faire l'objet d'une autorisation de principe du Comité de surveillance. Ces autorisations ne sont cependant pas nécessaires pour les communications internes au réseau prévues par arrêté royal.
+
+		85. En matière de conservation des données, une délégation de pouvoirs est prévue en vue de la destruction des banques de données dans l'hypothèse d'un état de guerre ou de circonstances assimilables. Les banques de données se voient expressément attribuer la responsabilité de la parfait conservation des données.
+
+		86. Chaque institution de sécurité sociale doit désigner un "conseiller en sécurité" chargé de fournir des avis qualifiés quant à la conservation des données etc . Celui de la B-C fournit également des conseils sur la sécurité du réseau en sa globalité.
+
+		87. Les obligation de finalité et de confidentialité s'appliquent à pratiquement toute personne, même hors réseau (personnel de secrétariats sociaux,... ).
+
+		88. Les données médicales sont sujettes à une protection renforcée.
+		Par donne médicale, la loi entend toutes données dont on peut déduire une information sur l'état antérieur, actuel ou futur de la santé physique ou psychique d'une personne à l'exception des données purement administratives ou comptables relatives aux traitements et aux soins médicaux. Ces données médicales doivent être traitées, échangées et conservées sous la surveillance et la responsabilité d'un médecin. Les personnes qui ont un contact avec ces données doivent être désignées nominativement. Le contenu et l'étendue de l'autorisation d'accès sont définis et il en est fait mention dans un registre tenu régulièrement à jour.
+		L'accès à ces données se fait au moyen de codes individuels d'accès et de compétence et leur conservation doit être faite sur des suports non directement accessibles.
+
+		b) Contrôle individuel
+		~~~~~~~~~~~~~~~~~~~~~~
+		c) Contrôle institutionnel
+		~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+			1. Comité de surveillance
+			°°°°°°°°°°°°°°°°°°°°°°°°°°
+				90. Regroupe des experts des différentes branches concernées (droit, informatique, médecine) dont l'indépendance est judicieusement garantie.
+					Ils sont désignés par les Chambres, sur présentation du Conseil des Ministres.
+					Il s'agit d'un organe de contrôle spécifique à la sécurité sociale, organe coexistant et collaborant avec la Comission pour la protection de la vie privée.
+				91. La coordination du Comité et de la Comission est assurée par différentes mesures.
+					Le Comité doit tenir la Comission au courant de la moindre plainte, demande d'avis, requête qui lui a été soumis.
+						-> La Comission a 30 jours pour valider les avis donnés par le Comité ou remplacer ceux-ci par les siens.
+				92. Les différentes missions du Comité :
+					- "veiller au respect" de la loi et de ses arrêtés d'exécution en vue de la protection de la vie privée,
+					- instruire toute demande, notamment d'enquête, émanant de la Comission,
+					- dénoncer aux inspecteurs sociaux tous les cas qui constituent ou laissent présumer une infraction,
+					- formuler toute recommandation qu'il juge utile pour l'application et le respect de la loi,
+					- prêter son aide à la solution de tout problème de principe ou de tout litige relatif à l'application de la loi relative à la B-C et agir en qualité d'amiable compositeur dans les litiges qui n'ont pu être résolus autrement.
+					Le Comité a le pouvoir de mettre fin à la communication de la B-C aux institutions de sécurité sociale qui n'exécutent pas leur obligation de communiquer les données sociales.
+				93. Toute personne peut signaler au Comité des faits qu'il devrait analyser.
+				94. Le Conseil dispose de pouvoirs d'enquête et d'investigation très importants. Il peut procéder à des enquêtes, charger un ou plusieurs de ses membres d'effectuer telle enquête sur place en faisant, le cas échéant, appel à des experts. Il peut exiger notamment communication de tout doucment pouvant être utile à l'enquête.
+			2. Inspecteurs sociaux
+			°°°°°°°°°°°°°°°°°°°°°°°
+				95. Ils sont chargés de la "surveillance pénale" du respect de la loi relative à la B-C. Leur pouvoir n'a qu'une limite : un besoin d'autorisation du pouvoir judiciaire pour visiter des locaux habités. En marge de cela, ils peuvent entendre des témions, se faire produire sans déplacement tous documents (supports informatiques compris), procéder à des vérifications et des recherches d'identités, y compris par des procédés photographiques,...
+				Ils ont le pouvoir d'adresser des injonctions aux institutions de sécurité sociale et de donner des avertissements ; ils peuvent également recevoir des plaintes, l'anonymat de l'auteur de la plainte étant garanti, même devant les tribunaux.
+
+			3. Comission de la protection de la vie privée
+			°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+				96. C'était un organe consultatif dépendant du pouvoir exécutif et responsable quasi exclusivement de ce dernier, et c'est plus le cas maintenant.
+				97. Elle possède, au sein de la B-C, des droits similaires à ceux d'une autorité chargée d'une tutelle de substitution, pouvoir qu'on ne retrouve pas dans le cadre du registre national. La Commission peut en effet enjoindre au Comité d'agir. En outre, la Commission peut évoquer, pour les confirmer (=amender) ou remplacer par les siens les avis, recommandations ou décisions du Comité. 
+			4. Dispositions pénales
+			°°°°°°°°°°°°°°°°°°°°°°°°
+				98. Sanctions pénales prévues à charge de ceux qui enfreignent le principe de finalité, le devoir de confidentialité ou qui s'abstiennent de prendre les mesures appropriées pour leur respect. Considérés comme infraction :
+					- accéder volontairement ou de se maintenir volontairement, avec ou sans intention frauduleuse, dans tout ou partie d'un traitement automatisé de données sociales du réseau,
+					- avoir, en dehors des conditions prévues par la loi, volontairement, avec ou sans intention frauduleuse, introduit des données dans le réseau ou supprimé ou modifié des données qu'il contient ou leur mode de traitement ou de transmission, entravé ou altéré le fonctionnement d'un traitement automatisé de données sociales du réseau ou endommagé ou détruit tout ou partie d'un tel traitement, notamment les données ou les programmes qui y figurent.
+
+	_________________________________________
+	Sous-section 6 : Statistiques officielles
+	_________________________________________
+
+	OSEF (pas dit au cours)
+
+-------------------------------------
+Section 6 : La loi du 8 décembre 1992
+-------------------------------------
+
+Détails qu'osef.
+
+======================================================================================================================================================================================
+=================== CHAPITRE 2 : EVOLUTION DU DROIT SOUS L'INFLUENCE DE L'INFORMATIQUE ===============================================================================================
+======================================================================================================================================================================================
+
+206. Influence de l'informatique sur le droit est plus profonde dès lors que cette technique est devenue un péhnomène de masse. La dématérialisation de l'information, qui est de nos jours la valeur économique première, soulève des problèmes liés à la règlementation de la protection des oeuvres de l'esprit, aux normes comptables, à la fiscalité, aux flux transfrontières et à la tarification douanière.
+
+L'informatique apparaissant comme un phénomène de masse au fur et à mesure que le temps s'ecoulait, son influence sur le droit devint de plus en plus profonde.
+Quel que soit le domaine dans lequel on souhaite appliquer le droit, l'informatique en fait partie integrante. L'informatique étant un domaine vaste, il est complexe de définir la multiplicité des obligations des diverses parties impliquéees. Par ailleurs, la quantité importante des intervenants du domaine rend difficile la définition des tâches et des responsabilités de chacun.
+
+Comment faire maintenant que les paiements sont fait électroniquements et que les preuves ne sont plus des papiers signés comme avant ? Comment rechercher et réprimer ceux qui utilisent l'informatique pour tirer un quelconque profit illégitime ou s'approprier des valeurs informatiques d'autrui ? Le code pénal de notre pays semble rester dans de nombreux cas sans réponse.
+
+207.
+208. Dans tous les cas qui seront étudiés, rares sont ceux où un nouveau droit, càd de nouvelles normes ont été ressenties comme répondant à des besoins tellement pressant qu'elles ont amené le législateur à intervenir. Ceci est très probablement dû à la plasticité des règles, notions et concepts de notre droit. La plupart de ces concepts sont en effet à contenu vague et évolutif comme les notions de "bonnes moeurs", "faute" ou "ordre public". Le juge applique donc toujours le même droit, simplement l'évolution des esprits a donné des contenus différent aux notions et concepts employés. Retenons toutefois que c'est au législateur et non au juge de modifier la loi, ce dernier ne fait qu'appliquer la loi en vigueur. La grande différence inaliénable entre ces deux personnes est que le législateur est élu de manière démocratique comme représentant le peuple, ce n'est pas le cas du juge.
+
+======================================================================================================================================================================================
+=================== CHAPITRE 3 : INFORMATIQUE ET PROPRIÉTÉ INDUSTRIELLE ==============================================================================================================
+======================================================================================================================================================================================
+
+-----------------------
+Section 1 : Généralités
+-----------------------
+
+209. Propriété industrielle englobe 2 groupes de droits privatifs reconnus aux entreprises:
+	- droits exclusifs à l'usage de certains signes distinctifs qui servent à identifier une entreprise, un établissement ou des produits. (les marques)
+	- droits à un certain monopole d'exploitation d'une invention. Ce droit est limité dans le temps et suppose la délivrance préalable d'un brevet administratif : le brevet d'invention.
+	- le droit exclusif de tirer profit de l'oeuvre protégée par le droit d'auteur.
+
+-------------------------------
+Section 2 : Brevets d'invention
+-------------------------------
+
+210-213. Inventions exploitées dans le commerce et l'industrie peuvent être protégées par des brevets.
+Les programmes informatiques ont été exclus de ces inventions brevetables pour deux raisons :
+	1. invention brevetable suppose que l'invention soit susceptible d'application industrielle immédiate, cad qu'elle relève de l'action de l'homme sur la nature ou la matière.
+	2. technique de délivrance des brevets mal adaptée à la protection des logiciels.
+Un programme peut cependant être breuveté s'il fait partie d'un ensemble qui, in globo, est brevetable.
+
+---------------------------
+Section 3 : Droits d'auteur
+---------------------------
+
+214. Ensemble des droits accordés au créateur d'une oeuvr ede l'esprit, droits qui lui permettent d'être seul à pouvoir tirer profit de son oeuvre et à en assurer le respect.
+Ces droits ressemblent forts aux droits de la propriété industrielle mais il y a des différentes :
+	1. dans notre pays, la protection du droit d'auteur existe dès que l'oeuvre est mise en forme ou ébauchée.
+
+	.... CF RESUME DES AUTRES !
