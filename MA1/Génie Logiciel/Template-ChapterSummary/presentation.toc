@@ -1,0 +1,15 @@
+\select@language {french}
+\beamer@endinputifotherversion {3.07pt}
+\select@language {french}
+\beamer@sectionintoc {1}{Chapter 7 $\sim $ Why Did the Tower of Babel Fails ?}{2}{0}{1}
+\beamer@subsectionintoc {1}{2}{La communication dans les grands projets de programmation}{14}{0}{1}
+\beamer@subsectionintoc {1}{3}{Le ''Project Workbook"}{20}{0}{1}
+\beamer@subsectionintoc {1}{4}{L'organisation dans les grands projets de programmation}{40}{0}{1}
+\beamer@sectionintoc {2}{Chapter 8 $\sim $ Calling the shot}{75}{0}{2}
+\beamer@subsectionintoc {2}{2}{Les donn\IeC {\'e}es de Portman}{85}{0}{2}
+\beamer@subsectionintoc {2}{3}{Les donn\IeC {\'e}es de Aron}{88}{0}{2}
+\beamer@subsectionintoc {2}{4}{Les donn\IeC {\'e}es de Harr}{90}{0}{2}
+\beamer@subsectionintoc {2}{5}{Les donn\IeC {\'e}es de l'OS/360}{92}{0}{2}
+\beamer@subsectionintoc {2}{6}{Les donn\IeC {\'e}es de Corbat\IeC {\'o}}{94}{0}{2}
+\beamer@sectionintoc {3}{Analyse et critique}{99}{0}{3}
+\beamer@sectionintoc {4}{Bibliographie}{104}{0}{4}

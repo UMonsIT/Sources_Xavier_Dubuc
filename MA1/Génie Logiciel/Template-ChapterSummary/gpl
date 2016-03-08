@@ -1,0 +1,329 @@
+pdf : 44 --> 54
+
+CHAP 7 : Pourquoi la tour de Babel a échoué ?
+
+BABEL
+|¯¯¯¯
+| Rappel : la tour de Babel, selon la Génèse, il fut un temps où tous les hommes sur Terre utilisait le même langage. Ils 
+| se réunirent dans les plaines mésopotamiennes et se mirent en tête de construire une cité ave| c une tour qui atteindrait 
+| les cieux de manière à ce qu'ils ne soient plus dispersés sur toute la Terre. Dès lors le Seigneur descendit sur Terre et 
+| remarqua le travail des humains et se dit qu'au vu de ce qu'ils étaient capables dans un premier temps, rien de ce qu'ils
+| se décideraient à faire ne leur serait impossible. Il décida dès lors de "casser" le langage unique afin qu'ils ne se 
+| comprennent plus et il dispersa les hommes autour du monde dans le but qu'ils arrêtent de construire la cité.
+| 
+| Babel : second grande entreprise d'ingénieurie de l'humanité (selon la Genèse) et également le premier à échouer.
+| Analyse de cette entreprise comme un projet d'ingénieurie (afin de voir les leçons à en tirer) :
+| ---------------------------
+| Avaient-ils :
+| * une mission claire ? Oui, nettement.
+| * de la main d'oeuvre ? En quantité.
+| * des matériaux ? Oui, la glaise et l'asphalte sont abondants en Mésopotamie
+| * assez de temps ? Oui, ils n'avaient aucune contrainte temporelle
+| * une technologie adéquate ? Oui, la structure conique ou pyramidale est intrinsèquement stable 
+|   et répartit bien la charge de compression. La maçonnerie était clairement comprise et le projet
+|   a échoué avant que ça n'atteigne les limitations technologiques.
+|   
+| Alors pourquoi ça a échoué ? A cause de la communication ( --> implique des disputes, de la jalousie, etc .. ce qui a 
+| pour effet d'isoler les gens qui évitent les querelles) et, par conséquence, l'organisation. En effet, vu qu'ils ne se
+| comprennaient pas, ils ne pouvaient se coordiner ce qui a pour effet de stopper le travail.
+|
+¯¯¯¯
+COMMUNICATION DANS LES GRANDS PROJETS DE PROGRAMMATION
+|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+| De nos jours, les problèmes de calendrier, les incompatibilités fonctionnelles et les bugs de système arrivent à cause du
+| fait que la main gauche ne sait pas ce que fait la main droite. Les différentes parties d'un projet doivent alors faire
+| preuve d'une bonne communication de toutes les manières possibles : 
+| - de manière informelle avec un bon service téléphonique et une définition claire des dépendences entre les groupes,
+| - via des réunions de projet régulières où les équipes présentent des briefings techniques (elles sont précieuses),
+| - en utilisant un classeur de projet formel qui est commencé dès le début du projet.
+| 
+CLASSEUR DE PROJET
+|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+| Ce classeur n'est pas beaucoup plus un document à part qu'une structure imposée pour les documents que le projet va
+| produire quoi qu'il en soit. Chacun de ces documents doit faire partie de cette structure qui inclut les objectifs, les
+| spécifications externes, internes et de l'interface, les standards techniques ainsi que les mémorandums administratifs.
+| 
+| La prose technique est quasi immortelle, si on examine la généalogie d'un manuel du client pour une partie d'hardware ou
+| une partie de software on peut tracer non seulement les idées mais aussi une grande partie des phrases et des paragraphes
+| en arrière jusqu'au premier memorandum qui propose le produit ou explique le premier design. Pour l'écrivain technique,
+| le pot de colle est aussi puissant que le stylo.
+| 
+| Puisqu'il en est ainsi et depuis que les manuels de produit-qualité de demain vont grandir à partir des mémos 
+| d'aujourd'hui il est très important d'avoir une structure correcte de la documentation. Le design tôt du classeur de projet
+| assure que la structure de la documentation n'est pas conçue au hasard. De plus, l'établissement d'une structure moule 
+| des documents écrits par la suite dans des segments qui s'inscrivent dans cette structure.
+| 
+| La seconde raison pour le classeur de projet est le contrôle sur la distribution de l'information. Le problème n'est pas
+| de restreindre l'information mais d'assurer que l'information pertinante parvienne à toutes les personnes qui en ont
+| besoin. La première étape est de numéroter tous les mémorandums de manière à ce que des listes ordonnées de titres soient 
+| disponibles et que chaque travailleur puisse voir s'il a ce qu'il veut. L'organisation du classeur va bien au delà de ça
+| pour établir un structure d'arbre des mémorandums, structure qui permet aux listes de distribution d'être maintenues par
+| un sous-arbre si c'est désirable.
+| 
+| Comme avec tellement de problèmes de gestion de programmation, le problème du mémorandum technique n'est pas linéaire par
+| rapport à la taille.
+| → Avec 10 personnes les documents sont facilement numérotables,
+| → Avec 100 personnes, quelques séquences linéaires suffiront en général,
+| → avec 1000 personnes, qui sont séparés inévitablement en plusieurs endroits géographiques, le besoin d'un classeur de 
+|   projet structuré augmente et la taille de ce classeur également.
+| Dès lors, comment la mécanique doit-elle être manipulée ?
+| 
+| Prenons l'exemple du projet de l'OS/360, nous avons décidé rapidement que chaque programmeur devait voir TOUS le matériel
+| c'est-à-dire qu'il devait posséder une copie du classeur dans son propre bureau.
+| 
+| Il est d'une importance critique de mettre à jour en temps opportun, le classeur doit être actuel ce qui est très difficile
+| si un ensemble de documents doivent être retapés pour incorporer des changements. Dans un livre à feuilles mobiles
+| cependant, seules les pages doivent être changées. Nous avions à disposition un système d'édition de textes contrôlé par
+| ordinateur et ce qui s'est avéré précieux pour l'entretien en temps opportun. ?? étaient préparés directement sur 
+| l'imprimante de l'ordinateur et le délai d'exécution était plus petit qu'un jour. Cependant, le destinataire de toutes ces
+| pages mises à jour connaissait un problème d'assimilation. Quand il recevait pour la première fois une feuille qui avait 
+| été changée il voulait savoir "qu'est-ce qui a été changé ?" et quand il la consultait plus tard il voulait savoir : 
+| "Quelle est la définition d'aujourd'hui ?".
+| 
+| Ce dernier besoin est rencontré par le document maintenu de manière continue. Le surlignement des changements nécessitent
+| d'autres étapes. Premièrement, on doit marquer le texte changé sur une page (par exemple par une ligne vertical dans la 
+| marge à coté de chaque ligne concernée. Deuxièmement, on a besoin de distribuer avec les nouvelles pages un court résumé  
+| écrit séparément qui liste les changements et fait remarquer leur signification.
+| 
+| [1 pied = 0.3048m :: 6 pieds = 1.8288 m]
+| Notre projet n'était pas en route de 6 mois avant que l'on soit confronté à un nouveau problème : le classeur faisait 
+| environ 5 pieds (~1.524 m) de large ! Si nous avions empilé les 100 copies au service des programmeurs de nos bureaux dans 
+| le "Manhattan's Time-Life Building", la pile aurait dépassé le sommet du building (179m de haut). De plus, la distribution
+| des modifications quotidienne approchait, en moyenne, 2 pouces soit environ 150 pages à insérer dans le trou. La 
+| maintenance du classeur commençait à prendre un temps significatif de chaque journée de travail.
+| 
+| A ce point, nous avons changé pour les microfiches, un changement qui a sauvé un million de dollars, même en tenant compte
+| du coût que représente l'achat d'un lecteur de microfiches pour chaque bureau. Nous étions capables de disposer d'une 
+| exécution excellente sur la production de microfiches; le classeur a diminué de 0.0849 m3 à 1/6 pieds³ et, plus 
+| significativement, les mises à jour apparaissaient par morceaux d'une centaine de pages, réduisant par 100 le problème d'insertion.
+| 
+| La microfiche a ses inconvénients. Du point de vue du manager, l'interclassement maladroit de pages de papier assurait que les 
+| changements étaient lus, ce qui était le but du classeur. La microfiche rendrait l'entretien du classeur trop facile, sauf que les
+| fiches de mise-à-jour sont distribuées avec un document papier qui énumère les changements.
+| 
+| Aussi, une microfiche ne peut pas être surlignée, marquée et commentée lisiblement par le lecteur. Les documents avec lesquels le
+| lecteur a interagi sont plus efficaces pour l'auteur et plus utiles pour le lecteur. Au final, je pense que la microfiche était un
+| mécanisme vraiment chouette et nous le recommanderions par dessus un classeur papier pour les très gros projets.
+| 
+| Comment ferait-on de nos jours ?
+| --------------------------------
+| Avec la technologie de systèmes de nos jours, nous pensons que la technique de choix est de garder le classeur sur les fichiers à
+| accès direct, marqué par des barres de changements et des dates de révision. Chaque utilisateur le consulterait depuis un terminal
+| d'affichage (les machines à écrire sont trop lentes). Un résumé des changements, préparé chaque jour, serait stocké de manière LIFO
+| dans un point d'accès fixé. Le programmeur lirait probablement ceci quotidiennement, mais s'il manque un jour il n'aura qu'à lire un
+| peu plus le jour de son retour. Pendant qu'il lit le résumé des changements, il peut s'interrompre pour consulter le texte modifié.
+| 
+| Notons que le classeur lui-même n'est pas changé. C'est toujours l'assemblage de toute la documentation du projet, structuré en 
+| suivant un design soigné. Le seul changement est dans les mécanismes de distribution et de consultation. D.C. Engelbart et ses
+| collègues ont construit une tel système qu'ils utilisent pour construire et maintenir la documentation du réseau ARPA.
+| 
+| D.L Parnas a proposé une solution encore plus radicale. Sa thèse est que le programmeur est plus efficace s'il est protégé (plutot 
+| exposé aux) des détails de construction des parties du système autres que la sienne. Cela suppose que toutes les interfaces sont
+| complètement et précisément définies.
+¯¯¯¯¯¯¯
+
+ORGANISATION DANS LES GRANDS PROJETS DE PROGRAMMATION
+|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+| Si un projet comporte n travailleurs, alors il y a (n²-n)/2 interfaces à travers lesquelles il peut y avoir de la communication, et il
+| y a environ 2^n équipes potentielles entre lesquelles la coordination doit être de mise. Le but de l'organisation est de réduire le 
+| nombre de communications et de coordinations nécessaires; ainsi l'organisation est une attaque radicale sur les problèmes de 
+| communication traités précédemment.
+| 
+| Les moyens par lesquels la communication est évitée sont "la division du travail" et "la spécialisation de la fonction". La structure
+| en arbre des organisations reflète la diminution du besoin de communication détaillée lorsque ces 2 moyens sont utilisés.
+| 
+| En fait, une organisation en arbre apparaît réellement comme une structure d'autorité et de responsabilité. Le principe que aucun homme
+| ne peut servir 2 maîtres implique que la structure est en forme d'arbre. Mais la structure de communication n'est pas aussi 
+| restrictive, et l'arbre est une approximation à peine passable de la structure de communication qui est un réseau. Les insuffisances
+| de l'approximation de l'arbre donne lieu à des groupes d'employés, des groupes de travail, des comités et même à l'organisation en 
+| matrice utilisée dans beaucoup de laboratoires d'ingénieurie.
+|
+| Considérons une organisation de programmation en arbre, et examinons les essentiels que chaque sous arbre doit avoir pour être 
+| effectif. Ces essentiels sont :
+| 1. une mission
+| 2. un producteur
+| 3. un directeur ou un architecte technique
+| 4. un calendrier
+| 5. une division du travail
+| 6. des définitions d'interface entre les parties
+|
+| Toutes ces choses sont évidentes et conventionnelles exceptés la distinction entre le producteur et le directeur technique. Considérons
+| d'abord ces 2 rôles puis leurs relations.
+|
+| Quel est le rôle du producteur ? Il rassemble l'équipe, divise le travail, et établit le calendrier. Il acquiert et continue à 
+| acquérir les ressources nécéssaires. Cela signifie qu'une majeure partie de son rôle consiste en communication en dehors de son équipe,
+| envers les instances supérieurs ou avec des collègues du même niveau que lui (d'autre producteurs). Il établit le modèle de 
+| communication et de rapports à l'intérieur de l'équipe. Finalement, il s'assure que le calendrier est respecté, le déplacement de 
+| ressources et de l'organisation pour répondre aux circonstances changeantes.
+| 
+| Qu'en est-il du directeur technique ? Il conçoit le design à construire, il identifie les sous-parties, il spécifie à quoi ça va
+| ressembler vue de l'extérieur et esquisse la structure interne. Il fournit l'unité et l'intégrité conceptuelle à tout le design; donc 
+| il sert comme limite à la complexité du système. Quand des problèmes techniques individuels surgissent, il invente des solutions à
+| ceux-ci ou il change le design du système comme il est requis. Il est, comme le dit la phrase de Al Capp, "l'homme de l'intérieur
+| aux travaux de moufette". Ses communications sont principalement "intra-équipe" et son travail est presque complètement technique.
+|
+| Maintenant il est clair que les talents nécessaires pour ces 2 rôles sont assez différents. Les talents viennent en beaucoup de 
+| combinaisons différentes; et la combinaison particulière incarnée par le producteur et par le directeur doit gouverner la relation 
+| entre eux. Les organisations doivent être conçues autour des gens disponibles; pas des gens insérés dans des organisation purement
+| théoriques.
+| 
+| 3 relations sont possibles, et toutes les 3 se retrouvent dans la pratique avec succès :
+| + Le producteur et le directeur technique sont la même personne
+| |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+| | C'est facilement réalisable sur de très petites équipes, peut-être 3 à 6 programmeurs. Sur de plus grands projets c'est vraiment
+| | rarement réalisable pour 2 raisons : 
+| | - l'homme avec le plus grand talent de management et le plus grand talent technique est rarement trouvé, les penseurs sont rares
+| |   les "faiseurs" sont plus rare encore et les penseurs-faiseurs sont les plus rares.
+| | - sur un projet plus large, chacun des rôles est nécessairement un travail à plein temps, ou plus. C'est alors difficile pour le
+| |   producteur de déléguer assez de ses fonctions pour lui donner le moindre temps pour s'occuper de son rôle de directeur technique.
+| |   C'est impossible pour le directeur technique de déléguer ses fonctions sans compromettre l'intégrité conceptuelle du design.
+| ¯¯¯¯¯¯¯¯¯
+| + Le producteur est le boss et le directeur son bras droit
+| |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+| | La difficulté ici est d'établir l'autorité du directeur à prendre des décisions techniques sans impact sur son temps qui le placerait
+| | dans la chaîne de commande du management. Évidemment le producteur doit proclamer l'autorité du directeur technique et il doit faire
+| | un retour (~feedback) dans une proportion extrêmement élevé des cas de test qui surviendront. Pour que cela soit possible, le 
+| | producteur et le directeur doivent avoir la même vue sur la philosophie technique fondamentale; ils doivent discuter sur les 
+| | questions techniques de manière privée, avant qu'elles ne deviennent vraiment opportunes; et le producteur doit avoir un grand
+| | respect pour les prouesses du directeur technique.
+| |
+| | De manière moins évidente, le producteur peut faire toutes sortes de choses subtiles avec les symboles de statut (taille du bureau,
+| | carpette, ameublement, copies carbone, etc) pour proclamer que le directeur, bien qu'en dehors de la ligne de management est la
+| | source du pouvoir de décision.
+| |
+| | Cela peut être fait pour fonctionner de manière très efficiente mais malheureusement c'est rarement essayé. Le travail le moins bien
+| | fait par les gestionnaires de projet est d'utiliser le génie technique qui n'est pas fort sur le talent de management.
+| ¯¯¯¯¯¯¯¯¯
+| + Le directeur est le boss et le producteur son bras droit
+| |¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+| | Robert Heinlein, dans "The man who sold the Moon", décrit un tel arrangement : 
+| | Bob Custer :: directeur technique
+| | Harriman :: producteur
+| | Le directeur technique est dépassé par les évènements et a pris une mauvaise décision, le producteur s'occupe de lui, le déstresse,
+| | le détend et lui dit qu'il n'a qu'à demander quelque chose pour qu'on lui fasse apporter, qu'il n'a qu'à se concentrer sur 
+| | l'ingénierie. Le producteur proclame également son autorité suprême. Dans l'exemple, le directeur technique se voit attribuer un
+| | second qui va travailler dans l'ombre pour lui pendant que celui-ci se retire un peu pour se déstresser tout en continant à 
+| | travailler à l'ingénierie ; mais il reste le big boss et dans tout ce qui est publique c'est lui qui sera crédité et non le second.
+| |
+| | Cet arrangement peut également être fait de manière à fonctionner de manière effective, mais nous suspectons que cet arrangement est
+| | le mieux pour les petites équipes. Nous pensons que le producteur comme boss est l'arrangement le plus fiable pour les plus gros 
+| | sous-arbres d'un vraiment gros projet.
+| ¯¯¯¯¯¯¯¯¯
+¯¯¯¯¯¯¯
+La tour de Babel était peut-être le premier fiasco de l'ingénieurie mais ce n'était pas le dernier. La communication et ses conséquences
+ainsi que l'organisation sont critiques pour la réussite. Les techniques de communication et d'organisation demandent du manager plus de
+pensées autant de compétences d'expérience que la technologie du logiciel lui-même.
+
+
+
+
+CHAP 8 : Calling the shot.
+
+
+" La pratique est le meilleur des instructeurs "	-	PUBLILIUS
+" L'expérience est cher enseignant, mais les fous n'apprendront à personne."	-	POOR RICHARD'S ALMANAC
+
+Combien de temps un job de programmation de systèmes va-t-il prendre ? Combien d'efforts vont être requis ? Comment peut-on l'estimer ?
+
+Nous avons suggérer auparavant des ratios qui semblait s'appliquer à la planification du temps, au codage, au test des composants et au 
+test du système. D'abord, il faut dire que on n'estime pas la tâche entière en estimant la portion de code uniquement et puis en 
+appliquant les ratios. Le codage représente uniquement environ 1/6 du problème et les erreurs dans son estimation ou dans les ratios 
+peuvent mener à des résultats ridicules.
+
+Ensuite, il faut dire que les données pour construire des petits programmes isolés ne sont pas applicables aux produits de programmation
+de systèmes. Pour un programme contenant en moyenne 3200 mots, par exemple, Sackman, Erikson et Grant rapporte un temps moyen pour le 
+codage et le debug d'environ 178 heures pour un seul programmeur, un chiffre qui si on l'extrapole nous donne une productivité annuelle 
+de 35 800 mots par an. Un programme de la moitié de cette taille est environ un quart moins long, et en extrapolant on obtient une 
+productivité d'environ 80 000 mots par an. Le planning, la documentation, les tests, l'intégration du système et les temps de formation
+doivent être ajoutés. L'extrapolation linéaire de tels chiffres est vide de sens. L'extrapolation des temps pour le 100 mètres montre
+qu'un homme pour courir 1 mile en moins de 3 minutes.
+
+Avant de rejeter ceux-ci, cependant, notons que ces nombres, et pas pour des problèmes strictement comparables, suggèrent que l'effort 
+évolue comme une puissance de la taille même lorsqu'il y aucune autre communication impliquée que celle entre un homme et ses souvenirs.
+La figure 8.1 raconte l'histoire triste, elle illustre les résultats rapportés par une étude faite par Nanus et Farr de la System
+Development Corporation (SDC). Cela montre un exposant de 1.5 : effort = (constante) * (nombre d'instructions)^(1.5). Une autre étude de
+la SDC rapportée par Weinwurm montre un exposant proche de 1.5.
+
+Quelques études sur la productivité d'un programmeur ont été faites, et quelques estimations techniques ont été proposées. Morin a fait
+une enquête sur les données publiées. Ici, nous donnons seulement quelques sujets qui semblent spéciallement éclairants.
+
+Les données de Portman
+|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+| Charles Portman, manager de ICL's Software Division, Computer Equipment Organization (Northwest) à Manchester, a offert un autre 
+| aperçu personnel utile.
+|
+| Il a trouvé que ses équipes de programmation rataient les horaires +/- 1 fois sur 2, chaque job prenait approximativement le double du 
+| temps estimé. Les estimations étaient très soignées, faites par des équipes expérimentées qui estimaient les heures-homme pour
+| quelques 100aines de sous-tâches sur un diagramme PERT. Lorsque le modèle "slippage" ("glissement"), il leur a demandé de conserver
+| de manière soignée des logs quotidiens de l'utilisation du temps. Ces logs ont montré que l'erreur d'estimation pouvait être 
+| entièrement imputée au fait que les équipes réalisaient seulement 50% de leur semaine de travail à programmer et débugger. Le temps
+| d'arrêt des machines, les petits jobs non liés à celui-ci de plus haute priorité, les réunions, la paperasserie, le business de 
+| l'entreprise, la maladie, le temps personnel, etc. représentent les 50% autres pourcents.
+|
+| En bref, les estimations font une hypothèse irréaliste à propos du nombre d'heures de travail technique par personne/an. Notre propre 
+| expérience confirme sa conclusion.
+| 
+¯¯¯¯¯¯¯¯¯¯¯
+Les données de Aron
+|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+| Joel Aron, manager de Systems Technology chez IBM à Gaithersburg dans le Maryland, a étudie la productivité d'un programmeur lors qu'il
+| travaille sur 9 grands systèmes (grand = plus de 25 programmeurs et plus de 30 000 instructions livrables). Il a divisé de tels 
+| systèmes selon les interactions entre les programmeurs (et les parties du système) et a trouvé 5 productivités comme suit :
+| 		- Vraiment peu d'interactions	→	10 000 instructions par homme/an
+|		- Quelques interactions			→	 5 000 instructions par homme/an
+|		- Beaucoup d'interaction		→	 1 500 instructions par homme/an
+| Les homme/années n'incluent pas les activités de test du support et du système, seulement le design et la programmation. Quand ces
+| chiffres sont dilués par un facteur de 2 pour couvrir le test du système, elles sont très proches des données de Harr.
+¯¯¯¯¯¯¯¯¯¯¯
+Les données de Harr
+|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+| John Harr, manager de programmation pour Bell Telephone Laboratories' Electronic Switching System, a rapporté ses expériences et celles
+| d'autres dans un papier publié la Spring Joint Computer Conference de 1969. Ces données sont montrées dans les figures 8.2, 8.3 et 8.4.
+|
+| De celles-ci, Fig 8.2 est la plus détaillée et la plus utile. Les deux premiers jobs sont basiquement des programmes de contrôle; les 
+| deux seconds sont basiquement des traducteurs. La productivité est spécifiée en terme de mots débuggés par homme/an. Ceci inclu la
+| programmation, le test des composants et le test du système. Ce n'est pas clair combien du planning d'effort, ou d'effort dans le
+| le support de la machine, de l'écriture et autres est inclu.
+|
+| Les productivités sont classées selon 2 classifications; celles pour les programmes de contrôle s'élèvent à environ 600 mots par 
+| homme/an et pour les traducteurs environ 2200 mots par homme/an. Notez que les 4 programmes ont une taille similaire, la variation se
+| trouve dans la taille des groupes de travail, la longueur du temps et du nombre de modules. Quelle est la cause et quel est l'effet ?
+| Est-ce que les programmes de contrôle recquièrent plus de modules et plus d'hommes/mois car ils ont plus d'hommes assignés ? 
+| Prennent-ils plus longtemps parce qu'ils ont une complexité plus élevée ou parcequ'ils ont plus d'hommes assignés ?
+| On ne peut pas être sûrs mais les programmes de contrôle sont certainement plus complexes. Ces incertitudes de coté, les nombres
+| décrivent les productivités réelles atteintes sur un grand système, en utilisant les techniques de programmation de nos jours. Comme
+| tels, ils sont une réelle contribution.
+|
+| Les figures 8.3 et 8.4 montre quelques données interessantes sur les taux de programmation et de débugging comparés aux taux prédits.
+¯¯¯¯¯¯¯¯¯¯¯
+Les données de OS/360
+|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+| L'expérience d'IBM OS/360, qui n'était pas disponible dans les détails des données de Harr, les confirment. Les productivités dans la
+| gamme de 600-800 instructions débuggées par homme/an ont été expérimentées par des groupes de programme de contrôle. Les productivités
+| dans 2000-3000 instructions débuggées par homme/an ont été atteintes par des groupes de traducteurs. Ces chiffres incluent le planning
+| fait par le groupe, le codage, le test des composants, le test du sytème et quelques activités de support. Ces données sont comparables
+| à celles de Harr.
+|
+| Les données de Harr, d'Aron et de l'OS/360 confirment toutes des différences frappantes dans la productivité reliées à la complexité
+| et à la difficulté de la tâche elle-même. Notre ligne directrice dans le bourbier de la complexité de l'estimation est que les 
+| compilateurs sont 3 fois plus mauvais que les programmes d'application batch normaux, et les sytèmes d'exploitation sont 3 fois pires
+| que les compilateurs.
+¯¯¯¯¯¯¯¯¯¯¯
+Les données de Corbato
+|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+| Les données de Harr et de l'OS/360 concernent la programmation en langage assembleur. Peu de données semblent avoir été publiées sur 
+| les productivités de système de programmation utilisant des langages de programmation de plus haut niveau. Corbato du MIT's Project MAC
+| rapporte cependant une productivité moyenne de 1200 lignes de "PL/I statements" débuggées par homme/an sur le système MULTICS (entre
+| 1 million et 2 millions de mots).
+|
+| Ce nombre est vraiment passionnant. Comme les autres projets, MULTICS inclus des programmes de contrôle et des traducteurs. Comme les
+| autres, il produit un produit de programmation de système, testé et documenté. Les données semblent être comparables en termes de type
+| d'effort inclus. Et le nombre de productivité est une bonne moyenne entre le programme de contrôle et les productivités de traduction
+| d'autres projets.
+|
+| Mais les nombres de Corbato sont des "lignes" par homme/an, pas des mots ! Chaque statement donc son système correspond à environ 3 ou 
+| 5 mots de code écrit à la main ! Celà suggère 2 importantes conclusions :
+| 	-	La productivité semble être constante en terme de statements élémentaires, une conclusion qui est raisonable en terme de la 
+|		pensée qu'un statement recquiert et les erreurs qu'elle peut comporter.
+|	-	La productivité de programmation peut augmenter 5 fois lorsqu'un langage de programmation de haut niveau approprié est utilisé.
+¯¯¯¯¯¯¯¯¯¯¯
