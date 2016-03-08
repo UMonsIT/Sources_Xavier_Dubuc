@@ -1,0 +1,552 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{mathrsfs}
+\usepackage{mathenv}
+
+\def\nbOne{{\mathchoice {\rm 1\mskip-4mu l} {\rm 1\mskip-4mu l}
+{\rm 1\mskip-4.5mu l} {\rm 1\mskip-5mu l}}}
+
+\usepackage{vmargin}
+\setmarginsrb{2.5cm}{2.5cm}{2.5cm}{2.5cm}{0cm}{0cm}{0cm}{0cm}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage[french]{babel}
+\selectlanguage{french}
+
+\usepackage{color}
+\usepackage{graphicx}
+\graphicspath{{img/}} 
+
+\usepackage{verbatim}
+\usepackage{moreverb}
+
+% Commandes personnelles %
+
+\definecolor{darkred}{rgb}{0.85,0,0}
+\definecolor{darkblue}{rgb}{0,0,0.7}
+\definecolor{darkgreen}{rgb}{0,0.6,0}
+\definecolor{darko}{rgb}{0.93,0.43,0}
+\newcommand{\dred}[1]{\textcolor{darkred}{\textbf{#1}}}
+\newcommand{\dgre}[1]{\textcolor{darkgreen}{\textbf{#1}}}
+\newcommand{\dblu}[1]{\textcolor{darkblue}{\textbf{#1}}}
+\newcommand{\dora}[1]{\textcolor{darko}{\textbf{#1}}}
+\newcommand{\gre}[1]{\textcolor{darkgreen}{#1}}
+\newcommand{\blu}[1]{\textcolor{darkblue}{#1}}
+\newcommand{\ora}[1]{\textcolor{darko}{#1}}
+\newcommand{\red}[1]{\textcolor{darkred}{#1}}
+
+\newcommand{\image}[1]{\includegraphics{#1}}
+\newcommand{\imageR}[2]{\includegraphics[width=#2px]{#1}}
+\newcommand{\imageRT}[2]{\includegraphics[height=#2px]{#1}}
+\newcommand{\img}[1]{\begin{center}\includegraphics[width=400px]{#1}\end{center}}
+\newcommand{\imag}[1]{\begin{center}\includegraphics{#1}\end{center}}
+\newcommand{\imgR}[2]{\begin{center}\includegraphics[width=#2px]{#1}\end{center}}
+\newcommand{\imgRT}[2]{\begin{center}\includegraphics[height=#2px]{#1}\end{center}}
+\newcommand{\point}[2]{\item \ora{\underline{#1}} : \textit{#2}}
+\newcommand{\bfp}[2]{\item \textbf{#1} : \textit{#2}}
+\newcommand{\sumin}[3]{\sideset{}{_{i=#1}^{#2}}\sum{#3}}
+\newcommand{\stitre}[1]{\noindent\textbf{\underline{#1}}}
+\newcommand{\stitreD}[2]{\noindent\textbf{\underline{#1}} \textit{(#2)}\\}
+
+\newcommand{\neu}{n\oe ud}
+\newcommand{\neuSP}{n\oe ud }
+\newcommand{\neus}{n\oe uds}
+\newcommand{\neuSPs}{n\oe uds }
+
+\DeclareMathAlphabet{\mathpzc}{OT1}{pzc}{m}{it}
+
+\title{\textbf{\textcolor{darkblue}{MAD $\sim$ Résumé 2010.}}}
+\author{\textit{Dubuc Xavier} \\ \red{xionhearts@hotmail.com}}
+
+\begin{document}
+
+\maketitle
+
+\hbox{\raisebox{0.4em}{\vrule depth 0.4pt height 0.4pt width 10cm}}
+
+\tableofcontents
+
+$ $ \\
+\hbox{\raisebox{0.4em}{\vrule depth 0.4pt height 0.4pt width 10cm}}
+
+\newpage
+
+\section{Méthodes basées sur Condorcet}
+
+\textbf{\underline{Exemple} :}
+\begin{center}
+	\begin{tabular}{|*{4}{c|}}
+	\hline
+	\textbf{10v }& \textbf{8v} & \textbf{4v} & \textbf{2v} \\
+	\hline
+	C & B & C & D \\
+	B & A & B & A \\
+	D & D & A & E \\
+	E & E & E & B \\
+	A & C & D & C \\
+	\hline
+	\end{tabular}
+\end{center}
+\subsection{Relation de Condorcet}
+
+Toutes les méthodes suivantes sont basées sur cette relation.
+Dresser le tableau de préférences et si $A\ P\ B$ et on place une flèche dans le graphe de $A$ vers $B$. \\
+
+\stitre{Calcul des préférences} : \\
+
+\noindent $AB : BPA (2-22)$\\
+$AC : CPA (10-14)$ \\
+$AD : AID (12-12)$ \\
+$AE : APE (14-10)$ \\
+$BC : CPB (10-14)$ \\
+$BD : BPD (22-2)$ \\
+$BE : BPE (22-2)$ \\
+$CD : CPD (14-10)$ \\
+$CE : CPE (14-10)$ \\
+$DE : DPE (20-4)$ \\
+
+\textbf{\underline{Tableau des préférences} : }
+
+\begin{center}
+	\begin{tabular}{|*{6}{c|}}
+	\hline
+	& A & B & C & D & E \\
+	\hline
+	A & - & & & & \red{P} \\
+	B & P & - & & P & \red{P} \\
+	C & \gre{P} & \gre{P} & - & \gre{P} & \gre{P} \\
+	D & & & & - & \red{P} \\
+	E & & & & & - \\
+	\hline
+	\end{tabular}
+\end{center}
+
+\noindent On voit que \gre{C} est un vainqueur de \textbf{Condorcet} et que \red{E} est un vainqueur de \textbf{Condorcet}.
+
+\noindent On construit le graphe et on voit que sur le graphe, aucune flèche ne va vers $C$, ce qui signifie que c'est un vainqueur de \textbf{Condorcet} et que toutes les flèches 
+vont vers $E$ ce qui implique que E est un perdant de \textbf{Condorcet}.
+
+\subsection{Méthode de Copeland (ou méthode des scores)}
+
+Le score d'un individu est le nombre de flèches sortantes moins le nombre de flèches rentrantes. Ainsi sur l'exemple : \\
+
+\begin{tabular}{l}
+$S(A) = -1$ \\
+$S(B) = 2$ \\
+$S(C) = 4$ \\
+$S(D) = -1$ \\
+$S(E) = -4$ \\
+\hline
+$\qquad \ \ = 0$
+\end{tabular}
+
+On voit que le premier est $C$ (logique vu que $C$ est un vainqueur de \textbf{Condorcet}). On réitère en enlevant l'élément de plus haut score. Ici on enlève donc C et les flèches 
+concernant celui-ci et on recalcule les scores. On obtient ainsi à la fin le classement : 
+\newpage
+\begin{center}
+	\begin{boxedverbatim}
+ C
+ |
+ B
+ |
+A,D
+ |
+ E
+	\end{boxedverbatim}
+\end{center}
+
+\subsection{Méthode de Schwartz}
+
+Elle consiste à effectuer la fermeture transitive du graphe de \textbf{Condorcet}, puis d'enlever les doubles flèches et les boucles. \textit{(Dans l'exemple, rien à ajouter pour la 
+fermeture transitive et rien à enlever par la suite)} \\
+
+On enlève le(s) n\oe uds où n'aboutissent aucune flèches et on les place en premier dans le classement ; ensuite on itère avec le graphe dont on a enlevé ces noeuds et les flèches qui 
+les concernent. Dans l'exemple on obtient le classement suivant : 
+
+\begin{center}
+	\begin{boxedverbatim}
+ C
+ |
+ B
+ |
+A,D
+ |
+ E
+	\end{boxedverbatim}
+\end{center}
+
+\subsection{Méthode de Fishburn}
+
+Cette méthode consiste à associer un ensemble à chaque élément de la manière suivante : 
+
+\[ E-(X) = \{ Y | Y \rightarrow X \}\]
+
+On fait ensuite le graphe de Fishburn où il existe un arc $X \rightarrow Y$ ssi $E-(X) \subsetneq E-(Y)$. On met en premier le(s) éléments auxquels n'aboutissent aucune flèche 
+et on itère comme précédemment.
+
+On a donc pour l'exemple : 
+
+\begin{center}
+	\begin{tabular}{l}
+	$E-(A) = \{B,C\}$ \\
+	$E-(B) = \{C\}$ \\
+	$E-(C) = \{\}$ \\
+	$E-(D) = \{B,C\}$ \\
+	$E-(E) = \{A,B,C,D\}$ 
+	\end{tabular}
+\end{center}
+
+On obtient le classement : 
+
+\begin{center}
+	\begin{boxedverbatim}
+ C
+ |
+ B
+ |
+A,D
+ |
+ E
+	\end{boxedverbatim}
+\end{center}
+
+\subsection{Méthode de Raynaud (méthode des oppositions)}
+
+On value les arcs du graphe de \textbf{Condorcet} par la différence entre les préférences pour l'un est l'autre. Pour l'exemple par exemple, la flèche de $B$ vers $A$ 
+comportera l'étiquette $22-2$ c'est-à-dire $20$. La méthode de Raynaud consiste à minimiser les oppositions. On calcule donc les oppositions, c'est-à-dire le maximum des poids 
+des flèches entrantes sur le graphe. Dans l'exemple : 
+
+\begin{center}
+	\begin{tabular}{l}
+	$O(A) = 20$ \\
+	$O(B) = 4$ \\
+	$O(C) = 0$ \\
+	$O(D) = 20$ \\
+	$O(E) = 20$ \\
+	\end{tabular}
+\end{center}
+
+On place en tête celui ou ceux ayant le moins d'opposition (donc le $O$ le plus petit), on l'enlève et on itère. On obtient sur l'exemple le classement : 
+
+\begin{center}
+	\begin{boxedverbatim}
+ C
+ |
+ B
+ |
+A,D
+ |
+ E
+	\end{boxedverbatim}
+\end{center}
+
+\subsection{Méthode de Perny (fermeture transitive valuée)}
+
+On value de telle sorte que l'on prend le minimum des poids d'un arc sur le chemin allant de $X$ à $Y$. On supprime ensuite les boucles et les doubles flèches de même valeur et on 
+remplace les doubles flèches de valeurs différentes par une seule flèche avec comme poids la différence des 2 poids précédents. (Dans notre exemple le pods la flèche $(B,E)$ 
+devient $4$ au lieu de $16$) On classe ensuite en premier celui ou ceux auxquels n'aboutissent aucune flèche, on l'enlève du graphe et on itère. On obtient pour l'exemple : 
+
+\begin{center}
+	\begin{boxedverbatim}
+ C
+ |
+ B
+ |
+A,D
+ |
+ E
+	\end{boxedverbatim}
+\end{center}
+
+\subsection{Méthode de Borda}
+
+On associe à chaque ligne un rang, de la manière suivante (pour l'exemple) : 
+
+\begin{center}
+	\begin{tabular}{|*{5}{c|}}
+	\hline
+	\textbf{Rang} & \textbf{10v }& \textbf{8v} & \textbf{4v} & \textbf{2v} \\
+	\hline
+	1 & C & B & C & D \\
+	2 & B & A & B & A \\
+	3 & D & D & A & E \\
+	4 & E & E & E & B \\
+	5 & A & C & D & C \\
+	\hline
+	\end{tabular}
+\end{center}
+
+On calcule ensuite les \textit{« scores »} suivant le rang : 
+
+\begin{center}
+	\begin{tabular}{l}
+	\textbf{A : } $50+16+12+4 = \boxed{82}$  \\
+	\textbf{B : } $20+8+8+8 = \boxed{44}$ \\
+	\textbf{C : } $10+40+4+10 = \boxed{64}$ \\
+	\textbf{D : } $30+24+20+2 = \boxed{76}$ \\
+	\textbf{E : } $40+32+16+6 = \boxed{94}$
+	\end{tabular}
+\end{center}
+
+\newpage
+
+On obtient le classement : 
+
+\begin{center}
+	\begin{boxedverbatim}
+ B
+ |
+ C
+ |
+ D
+ |
+ A
+ |
+ E
+	\end{boxedverbatim}
+\end{center}
+
+\section{Swing Weights}
+
+Avant de faire les swing weights, en fonction des hypothèses de l'énoncé, on trace les droites d'attractivité \textbf{(attention, faire à l'échelle)}. Associer une valeur à chaque sup 
+et inf et en fonction de l'échelle ainsi définie, calculer la valeur pour les objets à classer au milieu. On peut maintenant calculer les swing weights. On sait que : 
+\[ \boxed{w_1 + w_2 + w_2 = 1}\]
+
+Pour chaque échelle, on regarde la différence de $n_i(inf)$ à $n_i(sup)$ de telle manière que chaque $n_i$ est identique (donc si un des $n_i(sup)$ est à 100 et tous les autres à 
+80, il faut regarder la valeur pour 100 dans cette échelle). Pour cette différence, on calcule ensuite le prix (ou autres) nécessaire pour aller d'une borne à l'autre. (par exemple si 
+on a $n_1(sup) = 119$ et $n_1(inf) = 94$, on a une différence de $25$ et si on dit dans l'énoncé que pour $10$ il faut $100$ euros, alors il faudra $250$ euros) On a donc un nombre, 
+nommons le $x_i$, pour chaque critère. Ensuite on peut calculer que (par exemple pour 3 critères) : 
+\[
+\boxed{\begin{array}{l}
+w_1 = \frac{x_1}{x_2} w_2 \\
+w_3 = \frac{x_3}{x_2} w_2
+\end{array}} 
+\] 
+
+(si $w_2$ est le swing weight du prix)
+
+\noindent Pour l'exemple des écrans LCD, on doit avoir l'égalité suivante : 
+\[ \frac{250}{w_1} = \frac{300}{w_2} = \frac{250}{w_3} \Rightarrow \boxed{w_1 = \frac{5}{16}},\ \boxed{w_2 = \frac{6}{16}},\ \boxed{w_3 = \frac{5}{16}}\]
+
+\noindent On calcule ensuite les $p_i$ avec les formules $p_1+p_2+p_3=1$ et $p_i = \frac{w_i}{n_i(Sup_i)-n_i(Inf_i)} k$, dans l'exemple $n_i(Sup_i)-n_i(Inf_i) = 100$ et en 
+faisant $p_1+p_2+p_3=1$ on trouve \textbf{k}. (dans l'exemple $k = 100$ et donc $p_i = w_i$) On peut ainsi calculer les attractivité générale des critères :
+\begin{center}
+	\begin{tabular}{l}
+	$Att_g(A) = \sum p_i n_i = \frac{5}{16} 52 + \frac{6}{16} \frac{500}{6} + \frac{5}{16} 0 = \boxed{\frac{760}{16}}$ \\
+	$Att_g(B) = \frac{5}{16}0 + \frac{6}{16} 100 + \frac{5}{16} 20 = \boxed{\frac{700}{16}}$ \\
+	$Att_g(C) = \frac{5}{16}100 + \frac{6}{16} 0 + \frac{5}{16} 100 = \boxed{\frac{1000}{16}}$ \\
+	\end{tabular}
+\end{center}
+
+\newpage
+
+\section{MacBeth}
+
+A partir d'un tableau, il faut pouvoir dire que c'est inconsistant ou pas.
+
+\begin{center}
+	\begin{tabular}{|*{6}{c|}}
+	\hline
+	& A & B & C & D & E \\
+	\hline
+	A & nulle & faible & forte &forte & extrème \\
+	\hline
+	B & & nulle & med & med & très forte \\
+	\hline
+	C & & & nulle & très faible & faible \\
+	\hline
+	D & & & & nulle & faible \\
+	\hline
+	E & & & & & nulle \\
+	\hline
+	\end{tabular}
+\end{center}
+
+On associe des valeurs à chaque niveau, on commence par mettre à 0 toute la diagonale puis la "seconde diagonale" on mets 1 au plus faible niveau .
+
+\begin{center}
+	\begin{tabular}{|*{6}{c|}}
+	\hline
+	& A & B & C & D & E \\
+	\hline
+	A & nulle \gre{0} & faible \gre{2}& forte &forte & extrème \\
+	\hline
+	B & & nulle \gre{0}& med \gre{3}& med & très forte \\
+	\hline
+	C & & & nulle \gre{0} & très faible \gre{1}& faible \\
+	\hline
+	D & & & & nulle \gre{0}& faible \gre{2} \\
+	\hline
+	E & & & & & nulle \gre{0}\\
+	\hline
+	\end{tabular}
+\end{center}
+
+On considère la 2eme diagonale comme diagonale de référence, ensuite pour tout le reste du tableau la valeur c'est la somme des chemins "élémentaires" pour aller d'un endroit à 
+l'autre. Donc, par exemple pour aller de $A$ à $E$, la valeur est de $d(A,B) + d(B,C) + d(C,D) + d(D,E)$ (on remplit toujours diagonale par diagonale !). On remplit la 2eme diagonale 
+:
+
+\begin{center}
+	\begin{tabular}{|*{6}{c|}}
+	\hline
+	& A & B & C & D & E \\
+	\hline
+	A & nulle \gre{0} & faible \gre{2}& forte \red{5}&forte & extrème \\
+	\hline
+	B & & nulle \gre{0}& med \gre{3}& med \red{4} & très forte \\
+	\hline
+	C & & & nulle \gre{0} & très faible \gre{1}& faible \red{3}\\
+	\hline
+	D & & & & nulle \gre{0}& faible \gre{2} \\
+	\hline
+	E & & & & & nulle \gre{0}\\
+	\hline
+	\end{tabular}
+\end{center}
+
+On voit que faible = med, ce qui est un problème, il faut donc le résoudre. Il faut que $d(B,C) \geq d(C,E)+1$. On a : \\
+\begin{center}
+	\begin{tabular}{l}
+	$d(B,C) \geq d(C,E)+1$ \\
+	$d(B,C) \geq d(C,D) + d(D,E) + 1$ \\
+	$d(B,C) \geq 1+2+1$ \\
+	$\boxed{d(B,C) \geq 4}$
+	\end{tabular}
+\end{center}
+
+$\Rightarrow$ \textbf{on remplace $med$ par 4 au lieu de 3 et on recalcule la diagonale qui posait problème et la suite}.
+
+\red{On peut avoir fort à 7 et fort à 8 par exemple, c'est pas un problème.}
+
+\begin{center}
+	\begin{tabular}{|*{6}{c|}}
+	\hline
+	& A & B & C & D & E \\
+	\hline
+	A & nulle \gre{0} & faible \gre{2}& forte $\red{\not{5}6}$&forte & extrème \\
+	\hline
+	B & & nulle \gre{0}& med $\gre{\not{3} 4}$& med$\red{\not{4}5}$ & très forte \\
+	\hline
+	C & & & nulle \gre{0} & très faible \gre{1}& faible \red{3}\\
+	\hline
+	D & & & & nulle \gre{0}& faible \gre{2} \\
+	\hline
+	E & & & & & nulle \gre{0}\\
+	\hline
+	\end{tabular}
+\end{center}
+
+On calcule la diagonale suivante.
+
+\begin{center}
+	\begin{tabular}{|*{6}{c|}}
+	\hline
+	& A & B & C & D & E \\
+	\hline
+	A & nulle \gre{0} & faible \gre{2}& forte $\red{\not{5}6}$& forte $\ora{7}$ & extrème \\
+	\hline
+	B & & nulle \gre{0}& med $\gre{\not{3} 4}$& med$\red{\not{4}5}$ & très forte $\ora{7}$\\
+	\hline
+	C & & & nulle \gre{0} & très faible \gre{1}& faible \red{3}\\
+	\hline
+	D & & & & nulle \gre{0}& faible \gre{2} \\
+	\hline
+	E & & & & & nulle \gre{0}\\
+	\hline
+	\end{tabular}
+\end{center}
+
+\textbf{PROBLEME}, on a très forte = forte. Il faut :
+\begin{center}
+	\begin{tabular}{l}
+	$d(B,E) \geq d(A,D) 1$ \\
+	$d(B,C)+d(C,D)+d(D,E) \geq d(A,B)+d(B,C)+d(C,D)+1$ \\
+	$d(D,E) \geq 3$
+	\end{tabular}
+\end{center}
+
+\begin{center}
+	\begin{tabular}{|*{6}{c|}}
+	\hline
+	& A & B & C & D & E \\
+	\hline
+	A & nulle \gre{0} & faible \gre{2}& forte $\red{\not{5}6}$& forte $\ora{7}$ & extrème \\
+	\hline
+	B & & nulle \gre{0}& med $\gre{\not{3} 4}$& med$\red{\not{4}5}$ & très forte $\ora{\not{7}8}$\\
+	\hline
+	C & & & nulle \gre{0} & très faible \gre{1}& faible $\red{\not{3} 4}$\\
+	\hline
+	D & & & & nulle \gre{0}& faible $\gre{\not{2} 3}$ \\
+	\hline
+	E & & & & & nulle \gre{0}\\
+	\hline
+	\end{tabular}
+\end{center}
+
+On a exactement le même problème qu'avant $d(B,C) = d(C,E)$ alors qu'on a med et faible. Donc même calcul que tantôt et on modifie $d(B,C)$ et on recalcule.
+
+\begin{center}
+	\begin{tabular}{|*{6}{c|}}
+	\hline
+	& A & B & C & D & E \\
+	\hline
+	A & nulle \gre{0} & faible \gre{2}& forte $\red{\not{5} \not{6} 7}$& forte $\ora{\not{7} 8}$ & extrème \\
+	\hline
+	B & & nulle \gre{0}& med $\gre{\not{3} \not{4} 5}$& med$\red{\not{4} \not{5} 6}$ & très forte $\ora{\not{7} \not{8} 9}$\\
+	\hline
+	C & & & nulle \gre{0} & très faible \gre{1}& faible $\red{\not{3} 4}$\\
+	\hline
+	D & & & & nulle \gre{0}& faible $\gre{\not{2} 3}$ \\
+	\hline
+	E & & & & & nulle \gre{0}\\
+	\hline
+	\end{tabular}
+\end{center}
+
+On calcule finalement la toute dernière case :
+
+\begin{center}
+	\begin{tabular}{|*{6}{c|}}
+	\hline
+	& A & B & C & D & E \\
+	\hline
+	A & nulle \gre{0} & faible \gre{2}& forte $\red{\not{5} \not{6} 7}$& forte $\ora{\not{7} 8}$ & extrème $\blu{11}$\\
+	\hline
+	B & & nulle \gre{0}& med $\gre{\not{3} \not{4} 5}$& med$\red{\not{4} \not{5} 6}$ & très forte $\ora{\not{7} \not{8} 9}$\\
+	\hline
+	C & & & nulle \gre{0} & très faible \gre{1}& faible $\red{\not{3} 4}$\\
+	\hline
+	D & & & & nulle \gre{0}& faible $\gre{\not{2} 3}$ \\
+	\hline
+	E & & & & & nulle \gre{0}\\
+	\hline
+	\end{tabular}
+\end{center}
+
+On peut ensuite classer les $5$ candidats avec la dernière colonne, de cette façon : 
+\begin{center}
+	\begin{boxedverbatim}
+  ^
+A-|-11
+ -|-
+B-|-9
+ -|-
+ -|-
+ -|-
+ -|-
+C-|-4
+D-|-3
+ -|-
+ -|-
+E-|-0
+	\end{boxedverbatim}
+\end{center}
+
+Il n'y a donc pas d'inconsistance.
+
+\end{document}
