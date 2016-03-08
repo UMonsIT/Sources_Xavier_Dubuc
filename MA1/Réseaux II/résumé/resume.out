@@ -1,0 +1,69 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}
+\BOOKMARK [2][-]{subsection.1.1}{Rappel des bases}{section.1}
+\BOOKMARK [2][-]{subsection.1.2}{Traffic Engineering}{section.1}
+\BOOKMARK [1][-]{section.2}{Introduction au routage inter-domaine}{}
+\BOOKMARK [2][-]{subsection.2.1}{Objectifs fondamentaux}{section.2}
+\BOOKMARK [2][-]{subsection.2.2}{D\351finitions}{section.2}
+\BOOKMARK [2][-]{subsection.2.3}{Politiques de routage}{section.2}
+\BOOKMARK [1][-]{section.3}{BGP}{}
+\BOOKMARK [2][-]{subsection.3.1}{Sessions}{section.3}
+\BOOKMARK [2][-]{subsection.3.2}{Messages}{section.3}
+\BOOKMARK [2][-]{subsection.3.3}{Routes}{section.3}
+\BOOKMARK [2][-]{subsection.3.4}{Attributs des chemins}{section.3}
+\BOOKMARK [2][-]{subsection.3.5}{Machine \340 \351tats finie}{section.3}
+\BOOKMARK [2][-]{subsection.3.6}{Processus de d\351cision}{section.3}
+\BOOKMARK [2][-]{subsection.3.7}{Filtres de routage}{section.3}
+\BOOKMARK [2][-]{subsection.3.8}{BGP interne \(iBGP\)}{section.3}
+\BOOKMARK [2][-]{subsection.3.9}{Ing\351nierie de trafic bas\351e sur BGP}{section.3}
+\BOOKMARK [2][-]{subsection.3.10}{Multi-homing}{section.3}
+\BOOKMARK [2][-]{subsection.3.11}{Gestion du trafic via BGP}{section.3}
+\BOOKMARK [2][-]{subsection.3.12}{R\351sistance \340 la mont\351e en charge}{section.3}
+\BOOKMARK [2][-]{subsection.3.13}{Conf\351d\351rations}{section.3}
+\BOOKMARK [2][-]{subsection.3.14}{R\351flection de routes}{section.3}
+\BOOKMARK [2][-]{subsection.3.15}{Filtres \340 grande \351chelle: les communaut\351s}{section.3}
+\BOOKMARK [2][-]{subsection.3.16}{Stabilit\351}{section.3}
+\BOOKMARK [2][-]{subsection.3.17}{Nombre de messages \351chang\351s}{section.3}
+\BOOKMARK [3][-]{subsubsection.3.17.1}{Stable Path Problem \(SPP\)}{subsection.3.17}
+\BOOKMARK [3][-]{subsubsection.3.17.2}{Probl\350mes d'iBGP}{subsection.3.17}
+\BOOKMARK [1][-]{section.4}{IPv6}{}
+\BOOKMARK [2][-]{subsection.4.1}{Motivations}{section.4}
+\BOOKMARK [2][-]{subsection.4.2}{Architecture d'adressage}{section.4}
+\BOOKMARK [2][-]{subsection.4.3}{Paquets IPv6}{section.4}
+\BOOKMARK [2][-]{subsection.4.4}{ICMPv6}{section.4}
+\BOOKMARK [2][-]{subsection.4.5}{DNSv6}{section.4}
+\BOOKMARK [2][-]{subsection.4.6}{Transition d'IPv4 \340 IPv6}{section.4}
+\BOOKMARK [1][-]{section.5}{MPLS}{}
+\BOOKMARK [2][-]{subsection.5.1}{Utiliser le label swapping et IP}{section.5}
+\BOOKMARK [2][-]{subsection.5.2}{Utilisations de MPLS}{section.5}
+\BOOKMARK [3][-]{subsubsection.5.2.1}{LDP}{subsection.5.2}
+\BOOKMARK [3][-]{subsubsection.5.2.2}{RSVP}{subsection.5.2}
+\BOOKMARK [3][-]{subsubsection.5.2.3}{RSVP-TE}{subsection.5.2}
+\BOOKMARK [1][-]{section.6}{R\351seau de capteurs sans fil \(Wireless Sensor Network - WSN\)}{}
+\BOOKMARK [2][-]{subsection.6.1}{Motivations}{section.6}
+\BOOKMARK [3][-]{subsubsection.6.1.1}{Tentative de d\351finition}{subsection.6.1}
+\BOOKMARK [3][-]{subsubsection.6.1.2}{Exemple d'applications}{subsection.6.1}
+\BOOKMARK [3][-]{subsubsection.6.1.3}{Plus qu'un simple r\351seau sans fil}{subsection.6.1}
+\BOOKMARK [3][-]{subsubsection.6.1.4}{Composition principale d'un WSN}{subsection.6.1}
+\BOOKMARK [2][-]{subsection.6.2}{Noeud-capteur}{section.6}
+\BOOKMARK [3][-]{subsubsection.6.2.1}{Structure typique d'un noeud capteur}{subsection.6.2}
+\BOOKMARK [3][-]{subsubsection.6.2.2}{Mat\351riel typique d'un noeud capteur}{subsection.6.2}
+\BOOKMARK [3][-]{subsubsection.6.2.3}{Architecture d'un noeud capteur}{subsection.6.2}
+\BOOKMARK [3][-]{subsubsection.6.2.4}{Consommation d'\351nergie - Microcontr\364leur}{subsection.6.2}
+\BOOKMARK [3][-]{subsubsection.6.2.5}{Consommation d'\351nergie - Radio}{subsection.6.2}
+\BOOKMARK [2][-]{subsection.6.3}{Architecture d'un r\351seau de capteurs}{section.6}
+\BOOKMARK [2][-]{subsection.6.4}{Couche MAC}{section.6}
+\BOOKMARK [3][-]{subsubsection.6.4.1}{Protocoles MAC traditionnels}{subsection.6.4}
+\BOOKMARK [3][-]{subsubsection.6.4.2}{Contraintes demand\351es par le protocole MAC}{subsection.6.4}
+\BOOKMARK [3][-]{subsubsection.6.4.3}{Diff\351rents protocoles MAC}{subsection.6.4}
+\BOOKMARK [3][-]{subsubsection.6.4.4}{S\(ensor\)-MAC}{subsection.6.4}
+\BOOKMARK [3][-]{subsubsection.6.4.5}{Mediation device protocol}{subsection.6.4}
+\BOOKMARK [3][-]{subsubsection.6.4.6}{IEEE 802.15.4}{subsection.6.4}
+\BOOKMARK [2][-]{subsection.6.5}{Couche r\351seau}{section.6}
+\BOOKMARK [3][-]{subsubsection.6.5.1}{Introduction}{subsection.6.5}
+\BOOKMARK [3][-]{subsubsection.6.5.2}{Ad-hoc On-demand Distance Vector \(AODV\)}{subsection.6.5}
+\BOOKMARK [2][-]{subsection.6.6}{Couche transport}{section.6}
+\BOOKMARK [2][-]{subsection.6.7}{Mod\350le de programmation / RTOS \(real-time operating system\)}{section.6}
+\BOOKMARK [3][-]{subsubsection.6.7.1}{Objectifs}{subsection.6.7}
+\BOOKMARK [3][-]{subsubsection.6.7.2}{Diff\351rence avec la programmation ordinaire}{subsection.6.7}
+\BOOKMARK [3][-]{subsubsection.6.7.3}{Pile IP - uIP}{subsection.6.7}
+\BOOKMARK [3][-]{subsubsection.6.7.4}{Cas d'\351tude: TinyOS}{subsection.6.7}

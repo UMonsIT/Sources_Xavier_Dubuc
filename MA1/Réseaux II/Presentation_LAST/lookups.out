@@ -1,0 +1,12 @@
+\BOOKMARK [2][]{Outline0.1}{Introduction}{}
+\BOOKMARK [2][]{Outline0.2}{Algorithmes bas\351s sur les arbres de pr\351fixes}{}
+\BOOKMARK [3][]{Outline0.2.1.14}{Arbres binaires \(Binary Trie\)}{Outline0.2}
+\BOOKMARK [3][]{Outline0.2.2.25}{Arbres aux chemins compress\351s \(Path-compressed\)}{Outline0.2}
+\BOOKMARK [2][]{Outline0.3}{Recherche binaire sur la longueur des pr\351fixes}{}
+\BOOKMARK [2][]{Outline0.4}{Sch\351ma bas\351 sur le hardware: TCAM}{}
+\BOOKMARK [3][]{Outline0.4.1.36}{Ternary CAM}{Outline0.4}
+\BOOKMARK [3][]{Outline0.4.2.48}{R\351duction du co\373t m\351moire}{Outline0.4}
+\BOOKMARK [2][]{Outline0.5}{Un mot sur les lookups IPv6}{}
+\BOOKMARK [3][]{Outline0.5.1.61}{Caract\351ristiques}{Outline0.5}
+\BOOKMARK [3][]{Outline0.5.2.66}{Les TCAM pour IPv6}{Outline0.5}
+\BOOKMARK [2][]{Outline0.6}{R\351f\351rences}{}
