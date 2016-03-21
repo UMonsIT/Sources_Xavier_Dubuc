@@ -1,3 +1,6 @@
 [submodule "BAC3/Compilation"]
 	path = BAC3/Compilation
 	url = https://github.com/UMonsIT/Compilation
+[submodule "MA1/Calculabilite-et-complexite"]
+	path = MA1/Calculabilite-et-complexite
+	url = https://github.com/UMonsIT/Calculabilite-et-complexite
