@@ -1,0 +1,3 @@
+[submodule "BAC3/Compilation"]
+	path = BAC3/Compilation
+	url = https://github.com/UMonsIT/Compilation
