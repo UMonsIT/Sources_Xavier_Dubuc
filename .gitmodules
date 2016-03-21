@@ -4,3 +4,6 @@
 [submodule "MA1/Calculabilite-et-complexite"]
 	path = MA1/Calculabilite-et-complexite
 	url = https://github.com/UMonsIT/Calculabilite-et-complexite
+[submodule "MA1/Algorithmes-d-approximation"]
+	path = MA1/Algorithmes-d-approximation
+	url = https://github.com/UMonsIT/Algorithmes-d-approximation
